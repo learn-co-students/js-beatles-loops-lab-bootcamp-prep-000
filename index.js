@@ -9,12 +9,23 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-
+const array = [];
   let i = 0
   while (i < facts.length) {
-    facts.push(`${facts[i]}!!!`)
+    array.push(`${facts[i]}!!!`)
     i++
   }
 
-  return facts
+  return array
+}
+
+function iLoveTheBeatles(num) {
+  const array = [];
+
+    do {
+      array.push("I love the Beatles!");
+      num++;
+    } while(num < 15);
+
+    return array;
 }
