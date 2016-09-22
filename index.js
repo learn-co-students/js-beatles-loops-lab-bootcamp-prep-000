@@ -1,17 +1,15 @@
 function theBeatlesPlay(arr_musicians, arr_instruments) {
   var array = [];
-  for (var i = 0; i < arr_musicians; i++) {
-    array.push(`${arr_musicians[0]} plays ${arr_instruments[0]}`)
+  for (var i = 0; i < arr_musicians.length; i++) {
+    array.push(`${arr_musicians[i]} plays ${arr_instruments[i]}`)
   }
   return array;
 }
 
 function johnLennonFacts(facts_array) {
   var array = [];
-  var i = 0;
-  while (i < facts_array.length) {
-    array.push(`${facts_array[i]}!!!`);
-    i++;
+  for(var i = 0; i < facts_array.length; i++) {
+    array.push(`${facts_array[i]}!!!`)
   }
   return array;
 }
