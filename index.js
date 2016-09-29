@@ -1,6 +1,6 @@
 function theBeatlesPlay(musicians, instruments) {
   var combo_arr = [];
-  for (i = 0; i < musicians.length; i++)
+  for (let i = 0; i < musicians.length; i++)
 {
   combo_arr.push(`${musicians[i]} plays ${instruments[i]}`)
 }
@@ -22,8 +22,8 @@ function iLoveTheBeatles(n) {
 
   do {
     new_arr.push("I love the Beatles!");
-    i++;
+    n++;
   }
 while (n < 15);
-    return array;
+    return new_arr;
 }
