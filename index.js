@@ -1,9 +1,6 @@
-const musicians = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Starr']
-const instruments = ['Guitar', 'Bass Guitar', 'Lead Guitar', 'Drums']
-
 function theBeatlesPlay(musicians, instruments) {
   var sentence = []
-  for (var i = 0; i <=3; i++) {
+  for (var i = 0, l = musicians.length; i < l; i++) {
     sentence.push(`${musicians[i]} plays ${instruments[i]}`)
   }
   return sentence
@@ -20,8 +17,9 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   var array = [];
-  do { 
+  do {
     array.push('I love the Beatles!')
-  } while (array.length <= number && number < 15)
+    number++
+  } while (number < 15)
   return array
 }
