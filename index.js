@@ -22,8 +22,13 @@ function johnLennonFacts(facts){
 //    'He was a choir boy and a boy scout',
 //    'He hated the sound of his own voice'
 //  ];
-  for (let facts = i){
-    johnLennonFacts.push( i + '!!!')
+//  for (let facts = i){
+//    johnLennonFacts.push( i + '!!!')
+//  }
+//  return facts;
+  do{
+    facts = facts.push();
   }
+  while ( facts.length > 0)
   return facts;
 }
