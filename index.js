@@ -5,9 +5,10 @@ function theBeatlesPlay(){
     'George Harrison plays Lead Guitar',
     'Ringo Starr plays Drums'
   ];
+  return array;
 }
 
 function johnLennonFacts(){
-  var array = [];
-  return array;
+  var facts = [];
+  return facts;
 }
