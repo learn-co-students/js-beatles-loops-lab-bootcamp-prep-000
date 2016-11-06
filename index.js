@@ -27,7 +27,7 @@ function johnLennonFacts(facts){
 //  }
 //  return facts;
   do{
-    facts = facts.push();
+    facts = facts.push('!!!');
   }
   while ( facts.length > 0)
   return facts;
