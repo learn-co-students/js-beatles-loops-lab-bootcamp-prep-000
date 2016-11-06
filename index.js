@@ -1,4 +1,4 @@
 function theBeatlesPlay(){
-  var = [];
+  var array = [];
   console.log (theBeatlesPlay);
 }
