@@ -5,5 +5,9 @@ function theBeatlesPlay(){
     'George Harrison plays Lead Guitar',
     'Ringo Starr plays Drums'
   ];
+}
+
+function johnLennonFacts(){
+  var array = [];
   return array;
 }
