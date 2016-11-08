@@ -1,9 +1,9 @@
 function theBeatlesPlay(musicians,instruments){
-theBeatlesPlay= new Array(musicians, instruments);
-  var musicians= new Array();
-  var instruments=new Array();
+var theBand = new Array ();
   for(var i=0,i<=musicians.length,i++){
-    musicians[0]="John Lennon plays guitar";
+  return  musicians[0]="John Lennon ";
+  return instruments[0]="plays guitar";
+  
   }
 }
 
