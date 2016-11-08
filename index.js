@@ -5,8 +5,3 @@ theBand.push(musicians[i] + " plays " + instruments[i]);
   }
   return theBand
 }
-
-
-johnLenninFacts
-
-iLoveTheBeatles
