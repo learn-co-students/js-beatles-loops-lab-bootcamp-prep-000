@@ -27,8 +27,7 @@ function iLoveTheBeatles(num){
   var lovethem= new Array();
   do{
   lovethem.push("I love the Beatles");
-  while {
-    num.length> 0 && maybeTrue();
-    return lovethem
+}
+while(num.length> 0 && maybeTrue());
+    return lovethem;
   }
-}}
