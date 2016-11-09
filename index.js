@@ -17,3 +17,18 @@ function johnLennonFacts(facts){
   }
 return newFacts;
 }
+
+
+function maybeTrue(){
+  return Math.random()>=0.5;
+}
+
+function iLoveTheBeatles(num){
+  var lovethem= new Array();
+  do{
+  lovethen.shift["I love the Beatles"];}
+  while {
+    num.length> 0 && maybeTrue();
+    return lovethem
+  }
+}
