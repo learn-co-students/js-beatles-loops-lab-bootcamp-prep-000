@@ -28,6 +28,6 @@ function iLoveTheBeatles(num){
   do{
   lovethem.push("I love the Beatles!");
 }
-while(num.length>0 );
+while(num.length> 0 && maybeTrue())
     return lovethem;
   }
