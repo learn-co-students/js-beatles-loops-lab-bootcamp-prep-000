@@ -5,3 +5,8 @@ theBand.push(musicians[i] + " plays " + instruments[i]);
   }
   return theBand
 }
+
+function johnLennonFacts(facts){
+  while(i=0; i<=facts.length;i++)
+  return (facts + "!!")
+}
