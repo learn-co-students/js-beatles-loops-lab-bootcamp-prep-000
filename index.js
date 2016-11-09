@@ -26,7 +26,7 @@ function maybeTrue(){
 function iLoveTheBeatles(num){
   var lovethem= new Array();
   do{
-  lovethen.shift("I love the Beatles");
+  lovethem.push("I love the Beatles");
   while {
     num.length> 0 && maybeTrue();
     return lovethem
