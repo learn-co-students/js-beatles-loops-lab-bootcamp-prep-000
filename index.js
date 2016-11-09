@@ -19,15 +19,13 @@ return newFacts;
 }
 
 
-function maybeTrue(){
-  return Math.random()>=0.5;
-}
+
 
 function iLoveTheBeatles(num){
   var lovethem= new Array();
   do{
   lovethem.push("I love the Beatles!");
 }
-while(num-- > 0)
+while(num-- >= 0)
     return lovethem;
   }
