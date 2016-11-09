@@ -23,9 +23,12 @@ return newFacts;
 
 function iLoveTheBeatles(num){
   var lovethem= new Array();
+ for(i=0;num<i;i++){
   do{
+
   lovethem.push("I love the Beatles!");
 }
-while(0<num--<15)
+while(num<15)
     return lovethem;
   }
+}
