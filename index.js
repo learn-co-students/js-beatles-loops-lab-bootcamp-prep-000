@@ -10,9 +10,10 @@ return theBand;
 
 
 function johnLennonFacts(facts){
+  var newFacts= new Array();
   var i=0;
   while(i<facts.length){
-    i++;
+  newFacts.push(facts[i++]+("!!!"));
   }
-return (facts[i] + ("!!!"));
+return newFacts;
 }
