@@ -12,14 +12,21 @@ return arr;
 }
 
 
-var array = ['He was the last Beatle to learn to drive', 'He was never a vegetarian', 'He was a choir boy and boy scout', 'He hated the sound of his own voice'];
-var i = 0;
-
 function johnLennonFacts (array) {
+	var i = 0;
 	var combo = [];
 	while (i < array.length) {
 		combo.push(`${array[i]}!!!`);
 		i++;
 	}
 	return combo;
+}
+
+function iLoveTheBeatles(number) {
+	var empty = [ ];
+	do {
+		empty.push(`I love the Beatles!`);
+		number++;
+	} while (number < 15);
+return empty;
 }
