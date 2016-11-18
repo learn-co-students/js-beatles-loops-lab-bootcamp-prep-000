@@ -20,11 +20,15 @@ function johnLennonFacts(facts) {
 
  function iLoveTheBeatles(n) {
    var array = []
-   var n = 0
-
+   //starts counting at 0
    do {
+  // it("returns an array of 'I love the Beatles!' once when passed the parameter 17"/this means nothing
+  // expect(iLoveTheBeatles(17)).toEqual(["I love the Beatles!"]);
+  //8 + 7 = 15
      array.push("I love the Beatles!")
-     n++;
-   } while ( n < 19);
-    return array;
+     n++
+     ///iterates
+   } while ( n < 15)
+// n< 15 outputs 14 times; and 17 is 15+2
+    return array
  }
