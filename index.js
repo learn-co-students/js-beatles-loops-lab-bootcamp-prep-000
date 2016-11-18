@@ -1,6 +1,3 @@
-//create a function theBeatlesPlay that accepts two parameters-an array of
-//musicians and instruments. the body stores an empty array stored in a variable.
-//the function contains a for loop
 function theBeatlesPlay(musicians,instruments) {
   var emptyArray = []
   for(let i = 0; i < musicians.length; i++) {
@@ -8,3 +5,26 @@ function theBeatlesPlay(musicians,instruments) {
   }
     return emptyArray
 }
+
+function johnLennonFacts(facts) {
+  const exclamedFacts = []
+
+  let i = 0
+  while(i < facts.length) {
+
+    exclamedFacts.push(`${facts[i]}!!!`)
+    i ++
+  }
+  return exclamedFacts
+}
+
+ function iLoveTheBeatles(n) {
+   var array = []
+   var n = 0
+
+   do {
+     array.push("I love the Beatles!")
+     n++;
+   } while ( n < 19);
+    return array;
+ }
