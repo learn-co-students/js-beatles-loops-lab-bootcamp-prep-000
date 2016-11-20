@@ -1,34 +1,35 @@
-function theBeatlesPlay(){
-  var Beatles = [
-    'John Lennon plays Guitar',
-    'Paul McCartney plays Bass Guitar',
-    'George Harrison plays Lead Guitar',
-    'Ringo Starr plays Drums'
-  ];
-  return Beatles;
-}
+//const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+//const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
-var facts = [
-  'He was the last Beatle to learn to drive',
-  'He was never a vegetarian',
-  'He was a choir boy and a boy scout',
-  'He hated the sound of his own voice'
-];
+function theBeatlesPlay(musicians, instruments){
+  const array = []
+  for (let i = 0, l = musicians.length; i < l; i++){
+    array.push(`${musicians[i]} plays ${instruments[i]}`);
+  }
+    return array;
+}
+const facts = [
+"He was the last Beatle to learn to drive",
+"He was never a vegetarian",
+"He was a choir boy and boy scout",
+"He hated the sound of his own voice"]
 
 function johnLennonFacts(facts){
-//  var facts = [
-//    'He was the last Beatle to learn to drive',
-//    'He was never a vegetarian',
-//    'He was a choir boy and a boy scout',
-//    'He hated the sound of his own voice'
-//  ];
-//  for (let facts = i){
-//    johnLennonFacts.push( i + '!!!')
-//  }
-//  return facts;
-  do{
-    facts = facts.push('!!!');
+  const loud = []
+  var i = 0;
+  while( i < facts.length){
+    loud.push(`${facts[i]}!!!`)
+    i++;
   }
-  while ( facts.length > 0)
-  return facts;
+  return loud;
 }
+
+function iLoveTheBeatles(n) {
+  const love = []
+  do {
+    love.push('I love the Beatles!')
+    n++
+  } while (n < 15)
+  return love;
+}
+// NOTE: how does this return the phrase 8 times and another singular time?
