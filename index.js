@@ -7,14 +7,14 @@ function theBeatlesPlay(musicians,instruments) {
 }
 /*ran learn test using var str = "!!!" and gave error*/
 function johnLennonFacts (arr)  {
-  var str = "!!!"; //changed from var str = "!!!"
+  var strArr = [ ]; //changed from var str = "!!!"
   let i = 0;
 
   while (i < arr.length) {
-    str.push(array[i], str );
+    strArr.push(arr[i] + "!!!")
     i++
     }
-    return str
+    return strArr
 }
 
 function iLoveTheBeatles ( n ) {
