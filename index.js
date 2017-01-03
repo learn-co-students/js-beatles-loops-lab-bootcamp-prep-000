@@ -11,19 +11,29 @@ function johnLennonFacts (arr)  {
   let i = 0;
 
   while (i < arr.length) {
-    strArr.push(arr[i] + "!!!")
-    i++
+    strArr.push(arr[i] + "!!!");
+    i++;
     }
-    return strArr
+    return strArr;
 }
 
 function iLoveTheBeatles ( n ) {
-  var arr =[]
+  var arr =[ ]
   var str = "I love the Beatles!"
 do {
   n++
   arr.push(str)
 }
-    while ( n < 15 )
+    while ( n < 15 ); //always use semicolon after the while in a
+    //do while loop because considered poor style not to it can lead
+    //to syntax error
     return arr
 }
+
+/*
+
+do {
+  _this(), _that(), _theOtherThing();
+} while (flag);   // flag could be falsy
+
+while(theMoon === "rising") flippittygibbitt(); the curly braces have been omitted on this line of code
