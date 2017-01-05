@@ -17,8 +17,8 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   var pizza = []
-    do{pizza.unshift("I love the Beatles!")
+    do{pizza.push("I love the Beatles!")
+      number++
       }while(number < 15)
-    number++
     return pizza
  }
