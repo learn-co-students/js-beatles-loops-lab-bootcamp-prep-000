@@ -1,13 +1,6 @@
 var musician = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 var instrument = ["Guitar", "Bass Guitar", "Lead Guitar",  "Drums"];
 
-var boringFacts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
-
 function theBeatlesPlay(musician, instrument) {
   var sentencesArray = [];
   for (var i = 0; i < 4; i++) {
@@ -16,22 +9,28 @@ function theBeatlesPlay(musician, instrument) {
   return sentencesArray;
 };
 
-function johnLennonFacts(boringFacts) {
-  var funFacts = [];
-  while (var i = 0; i < boringFacts.length; i++) {
-    funFacts.push(`${boringFacts[i]}!!!`);
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
+
+function johnLennonFacts(facts) {
+  var i = 0;
+  var newFacts = [];
+    while(i < facts.length) {
+    newFacts.push(facts[i] + "!!!");
+    i++;
   }
-  return funFacts;
+  return newFacts;
 };
 
 function iLoveTheBeatles(n) {
-  cuteArray = [];
-  if n < 15 {
+  var cuteArray = [];
     do {
-      array.push("I love the Beatles!");
-  } while (var i = 0; i < n; i++);
-  else {
-    alert("Your number must be less than 15.");
-  }
+      cuteArray.push( "I love the Beatles!" );
+      n++;
+    } while ( n < 15 );
   return cuteArray;
 };
