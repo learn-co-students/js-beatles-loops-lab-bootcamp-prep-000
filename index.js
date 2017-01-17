@@ -31,12 +31,12 @@ newArray.push(array[i++] + "!!!")
 
 function iLoveTheBeatles(number) {
 
-var emptyArray = [];
+var array = [];
 var newNumber = number + 1;
 
 do {  
 
-emptyArray.push("I love the Beatles!")
+array.push("I love the Beatles!")
 
 
 } while ( newNumber++ < 15 )
