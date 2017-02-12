@@ -2,9 +2,9 @@ function theBeatlesPlay(musicians, instruments) {
   var emptyArray = [];
 
   for (let i = 0; i < musicians.length; i++){
-    emptyArray.push(`${musicians[i]} plays ${instruments[i]}`);//destructive but does what it should 
+    emptyArray.push(`${musicians[i]} plays ${instruments[i]}`);//destructive but does what it should
   }
-  
+
   return emptyArray;
 
 }
@@ -12,25 +12,33 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(facts){
 
 var newFacts = [];
-var i = facts.length - 1;
+var i = 0;
 
-  while(i >= 0)
+  while(i < facts.length)
   {
-      newFacts[i] = facts[i]+ "!!!";//is it ok to reference by element?
-      (--i);
+      newFacts.push( `${facts[i]}!!!` );//pre-solution: is it ok to reference by element?
+      (i++);
   }
   return newFacts;
 }
+/**
+Previous
+line 15: var i = facts.length -1;
+line 17:  while(i >= 0)
+line 19: newFacts[i]= facts[i] + "!!!";
+Post-solution: Can use push ala newFacts.push(facts[i]+"!!!"), no idea why it wasn't working.
+P-S 2: needed to use interpolation, but ordering incorrect, will use count-up
+**/
 
-function iLoveTheBeatles(i){
+function iLoveTheBeatles(n){
   var array = [];
-  
-  do{ 
+
+  do{
   array.push("I love the Beatles!");
-  i++;
+  n++;
   }
-  while(i < 15)
-  
+  while(n < 15)
+
   return array;//create and add to new array
 }
 
