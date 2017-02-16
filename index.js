@@ -14,11 +14,11 @@ function johnLennonFacts(facts) {
   excitedFacts.push(`${facts[i]}!!!`)
   i++
   }
-  return excitedFacts
+  return excitedFacts 
 }
 
 function iLoveTheBeatles(n) {
-  const repeatedPraise = []
+  const repeatedPraise = [] //why call this cons instead of var?
 
   do {
     repeatedPraise.push("I love the Beatles!")
