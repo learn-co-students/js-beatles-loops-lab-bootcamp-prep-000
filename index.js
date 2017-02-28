@@ -6,18 +6,17 @@ var theBeatlesPlay = function(musicians, instruments){
   return array;
 }
 
-function johnLennonFacts(facts) {var _loopStart = Date.now(),_loopIt = 0;
-  debugger;
-  var newArr = [];
-  var i = 0;
-  console.log(i);
-  console.log(facts.length);setTimeout(function () {_loopStart = Infinity;});
-  while (i < facts.length) {if (++_loopIt > 5000 && Date.now() - _loopStart > 150) throw new RangeError("Potential infinite loop. You can disable this from settings.");
-    newArr.push(facts[i] + "!!!");
+function johnLennonFacts(jlfacts){
+  var johnLennonFacts = [];
+  var i= 0;
+  while (i < jlfacts.length){
+    johnLennonFacts.push(`${jlfacts[i]}!!!`)
     i++;
+
   }
-  return newArr;
+  return johnLennonFacts;
 }
+
 var iLoveTheBeatles = function(n){
   var arr = [];
   do{
