@@ -8,12 +8,12 @@ var theBeatlesPlay = (musicians, instruments) => {
 
 var johnLennonFacts = (facts) => {
   var Beatle = []
-  var i=0
-  while (i<facts.length) {
-    i++;
+  var i = 0
+  while (i < facts.length) {
     Beatle.push(`${facts[i]}!!!`);
+    i++;
   }
-  return Beatle;
+  return Beatle
 }
 
 var iLoveTheBeatles = (number) => {
