@@ -1,6 +1,25 @@
 function theBeatlesPlay(musicians, instruments) {
-  Beatles = []
-  (let i = 0, l < musicians.length; i < l ; i++)
-  Beatles.push (`${musicians[i]} plays ${instrumnets[i]}`)
-  return Beatles
+  let Beatles = []
+  for (let i = 0; i < musicians.length; i++) {
+    Beatles.push(`${musicians[i]} plays ${instruments[i]}`)
   }
+  return Beatles
+}
+
+function johnLennonFacts(facts){
+  let excitedfacts = [], i=0, l=facts.length
+  while (i<l) {
+    excitedfacts.push (`${facts[i]}!!!`);
+    i++
+  }
+  return excitedfacts
+}
+
+function iLoveTheBeatles(n) {
+  let luv = []
+  do {
+    luv.push (`I love the Beatles!`)
+    n++
+  } while (n < 15)
+  return luv
+}
