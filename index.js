@@ -1,12 +1,13 @@
 function theBeatlesPlay(musicians,instruments) {
   var bandRole = {};
-  for (i = 0; i <= musicians.length; i++) {
+  for (var i = 0; i <= musicians.length; i++) {
     bandRole = [...bandRole,[`${musicians[i]} + "plays " + ${instruments[i]}"`]];
   }
   return bandRole;
 }
 
 function johnLennonFacts(facts) {
+  var i = 0;
   while (i <= facts.length) {
     facts = [...facts,`${facts[i]} + "!!!"`];
     i++;
