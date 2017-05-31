@@ -9,6 +9,11 @@ return theyPlay
 }
 
 function johnLennonFacts(array) {
+  let i = 0
+  while (i < array.length) {
 
-  return array
+    array.push(`${array[i]}!!!`)
+    i++
+  }
+    return array
 }
