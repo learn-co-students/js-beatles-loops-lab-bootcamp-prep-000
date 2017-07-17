@@ -1,9 +1,29 @@
-var musicians = {"George", "John", "Paul", "Ringo"}
-var instruments = {"plays guitar", "sings", "plays bass", "plays drums"}
+
 function theBeatlesPlay (musicians, instruments) {
   var emptyarray = [];
-  for (var musicians = 0; musicians <4; musicians++) {
-    var emptyarray = [theBeatlesPlay]
+  for (var i = 0; i < musicians.length; i++) {
+    emptyarray.push (musicians [i] + " plays " + instruments [i]);
   }
-
+return emptyarray
 }
+
+function johnLennonFacts() {
+    var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
+    var newFacts = [];
+    var i = 0;
+    while (i < facts.length) {
+        newFacts.push(facts[i] +"!!!");
+        i++;
+    }
+    return newFacts;}
+
+
+function iLoveTheBeatles (num) {
+  var empty = [];
+  do {
+    empty.push ("I love the Beatles!");
+     num++;
+  }
+  while (num <15);
+    return empty;
+  }
