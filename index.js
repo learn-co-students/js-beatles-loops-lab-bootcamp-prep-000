@@ -1,29 +1,24 @@
-
-function theBeatlesPlay (musicians, instruments) {
-  var emptyarray = [];
+function theBeatlesPlay (musicians,instruments) {
+  let myvar =[]
   for (var i = 0; i < musicians.length; i++) {
-    emptyarray.push (musicians [i] + " plays " + instruments [i]);
+    myvar.push (musicians [i] + " plays " + instruments [i])
   }
-return emptyarray
+  return myvar
 }
 
-function johnLennonFacts() {
-    var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
-    var newFacts = [];
-    var i = 0;
-    while (i < facts.length) {
-        newFacts.push(facts[i] +"!!!");
-        i++;
-    }
-    return newFacts;}
-
+function johnLennonFacts (Facts) {
+  const newfacts = []
+for (var i = 0; i < Facts.length; i++) {
+  newfacts.push (Facts [i] + "!!!")
+}
+  return newfacts
+}
 
 function iLoveTheBeatles (num) {
-  var empty = [];
-  do {
-    empty.push ("I love the Beatles!");
-     num++;
-  }
-  while (num <15);
-    return empty;
-  }
+  let emptyarray = []
+  do { emptyarray.push ("I love the Beatles!")
+  num++
+//I don't understand why num isn't defined
+} while ( num < 15);
+return emptyarray
+}
