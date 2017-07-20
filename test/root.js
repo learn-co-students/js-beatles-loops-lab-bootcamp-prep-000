@@ -12,4 +12,6 @@ const babelResult = babel.transformFileSync(
 
 jsdom({
   src: babelResult.code
+  // ,
+  // useEach: true
 });
