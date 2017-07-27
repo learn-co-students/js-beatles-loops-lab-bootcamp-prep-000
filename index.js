@@ -17,7 +17,7 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(n) {
-  let arr = []; // const arr = []
+  let arr = []; // const arr = [] ===> let can be updated, const cannot => http://wesbos.com/let-vs-const/, i.e. properties can, but assignment cannot
   do {
     arr.push("I love the Beatles!")
     n++;
