@@ -15,3 +15,12 @@ while(facts.length > i) {
 }
 return excitedFacts;
 }
+
+function iLoveTheBeatles(n){
+  var pureLove = []
+  do{
+    pureLove.push("I love the Beatles!")
+    n++
+  }while (n<15) {}
+  return pureLove
+}
