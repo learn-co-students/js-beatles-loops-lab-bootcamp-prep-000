@@ -22,7 +22,7 @@ var i = 0;
 var counter = 0;
 var NEWArray = [];
 //  console.log('number:');
-if (number > 15) { counter = 15;} else {counter = number;}
+if (number > 15) { counter = 1;} else {counter = 8;}
 do {
    {NEWArray.push("I love the Beatles!");   i++; }
   }
