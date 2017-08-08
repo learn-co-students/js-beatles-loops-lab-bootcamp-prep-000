@@ -5,16 +5,14 @@ for (var i = 3; i > -1; i -= 1) {
   }  return array
 }
 
-
-function johnLennonFacts() {
-    var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
-    var newFacts = [];
-    var i = 0;
+var facts = []
+function johnLennonFacts(facts) {
+      var i = 0;
     while (i < facts.length) {
-        newFacts.push(facts[i] +"!!!");
+        facts[i] = (facts[i] +"!!!");
         i++;
     }
-    return newFacts;
+    return facts;
 }
 
 function iLoveTheBeatles(num) {
