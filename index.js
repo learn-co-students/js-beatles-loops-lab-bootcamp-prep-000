@@ -11,11 +11,12 @@ function theBeatlesPlay(musicianArray, instrumentArray) {
   //should contain a 'for' loop which loops over the array of musicians
 
   var theBeatles = new Array();
+  /*
   var mArray = musicianArray
   var iArray = instrumentArray
-
+  */
   for (let i = 0; i < instrumentArray.length; i++ ) {
-    theBeatles.push(`${mArray[i]} plays ${iArray[i]}`)
+    theBeatles.push(`${musicianArray[i]} plays ${instrumentArray[i]}`)
   }
 
   console.log(theBeatles)
