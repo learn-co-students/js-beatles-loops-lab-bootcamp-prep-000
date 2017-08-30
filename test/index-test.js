@@ -6,6 +6,16 @@ describe('Beatles Loops', function() {
     expect(theBeatlesPlay(musicians, instruments)).toEqual(["John Lennon plays Guitar", "Paul McCartney plays Bass Guitar", "George Harrison plays Lead Guitar", "Ringo Starr plays Drums"]);
   });
 
+  function theBeatlesPlay(musicians, instruments) {
+    var result = [];
+
+    for (var i = 0; i < instruments.length; i++) {
+      result.push(`${musicians[i]} plays ${instruments[i]}`);
+    }
+
+    return result;
+  }
+
   describe('johnLennonFacts', function(){
     it("returns an array of strings with exclamation points", function() {
       expect(johnLennonFacts([
@@ -22,6 +32,16 @@ describe('Beatles Loops', function() {
     });
   });
 
+function johnLennonFacts(array) {
+var result = [];
+var i = 0;
+  while (i < array.length) {
+      result.push(array[i] + "!!!");
+      i++;
+  }
+  return result;
+}
+
   describe('iLoveTheBeatles', function() {
     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
       expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
@@ -33,3 +53,18 @@ describe('Beatles Loops', function() {
   });
 
 });
+
+function iLoveTheBeatles(n) {
+  if (n >= 15) {
+    return ["I love the Beatles!"];
+  } else {
+    var result = [];
+
+    do {
+      result.push("I love the Beatles!");
+      n--;
+    } while (n >= 0);
+    return result;
+  }
+
+}
