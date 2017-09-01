@@ -27,7 +27,6 @@ function johnLennonFacts(facts) {
 };
 
 function iLoveTheBeatles(n) {
-  //var that stores an empty array
   var beatlesLove = [];
   //do-while loop
   do {
@@ -35,4 +34,4 @@ function iLoveTheBeatles(n) {
     n++
   } while (n < 15);
   return beatlesLove;
-}; 
+};
