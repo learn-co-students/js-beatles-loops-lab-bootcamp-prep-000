@@ -1,33 +1,38 @@
+//create a function theBeatlesPlay
 function theBeatlesPlay(musicians, instruments) {
-
-  var musiciansAndInstruments = []
-
-  for (let i = 0; i < musicians.length; i++ ) {
-    musiciansAndInstruments.push(`${musicians[i]}` + " plays " + `${instruments[i]}`)
+  //create an empty array that stores musicans and intruments
+  var musiciansAndInstruments = [];
+  //loop over array of musicians
+  for(var i = 0; i < musicians.length; i++) {
+    //loop over first index of musicians and first index of instruments
+    //Add string to the empty array
+    musiciansAndInstruments.push(musicians[i] + " plays " + instruments[i]);
   }
-  return musiciansAndInstruments
-}
+  return musiciansAndInstruments;
+};
+
 
 function johnLennonFacts(facts) {
-  var shoutedFacts = []
+  //create an empty array that accepts facts
+  var shoutedFacts = [];
 
-  let i = 0
-  while (i < facts.length) {
-    shoutedFacts.push(`${facts[i]}` + "!!!")
-    i++
+  var i = 0; //start from index 0, you always need a counter
+  while(i < facts.length) {
+    //add "!!!" to end to facts
+    shoutedFacts.push(facts[i] + "!!!")
+    i++ // counting UP
   }
-  return shoutedFacts
-}
-
+  //return array of strings with exclamation points
+  return shoutedFacts;
+};
 
 function iLoveTheBeatles(n) {
-
-  var loveForTheBeatles = []
-
+  //var that stores an empty array
+  var beatlesLove = [];
+  //do-while loop
   do {
-    loveForTheBeatles.push("I love the Beatles!")
+    beatlesLove.push("I love the Beatles!")
     n++
-  } while (n < 15)
-
-  return loveForTheBeatles
-}
+  } while (n < 15);
+  return beatlesLove;
+};
