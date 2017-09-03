@@ -1,5 +1,5 @@
 describe('Beatles Loops', function() {
-  it("returns an array of strings containing what instruments each instrument plays", function() {
+  it("returns an array of strings containing what instrument each musician plays", function() {
     const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
     const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
@@ -25,6 +25,10 @@ describe('Beatles Loops', function() {
   describe('iLoveTheBeatles', function() {
     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
       expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
+    });
+
+    it("returns an array of 'I love the Beatles!' 5 times when passed the parameter 4 ", function() {
+      expect(iLoveTheBeatles(4)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
     });
 
     it("returns an array of 'I love the Beatles!' once when passed the parameter 17", function() {
