@@ -19,10 +19,9 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   var iLoveTheBeatlesArray = [];
-  var number1 = number;
   do{
     iLoveTheBeatlesArray.push(`I love the Beatles!`);
-    --number1;
-  } while (number < 15 && number1 >= 0);
+    ++number;
+  } while (number < 15);
   return iLoveTheBeatlesArray;//returns an array of 'I love the Beatles!' 1 more time than the parameter passed and only once if parameter is 15 or more
 }
