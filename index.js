@@ -23,5 +23,5 @@ function iLoveTheBeatles(number){
     iLoveTheBeatlesArray.push(`I love the Beatles!`);
     ++number;
   } while (number < 15);
-  return iLoveTheBeatlesArray;//returns an array of 'I love the Beatles!' 1 more time than the parameter passed and only once if parameter is 15 or more
+  return iLoveTheBeatlesArray;
 }
