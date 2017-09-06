@@ -1,12 +1,12 @@
 function theBeatlesPlay(musicians, instruments) {
-  var newStrings = [];
-  var string = musicians[i] + " plays " + instruments[i];
-  for (var i = 0; i < musicians.length; i++) {
-    newStrings.push(string);
-  }
-  return newStrings;
-}
+  const array = [];
 
+  for (let i = 0, l = musicians.length; i < l; i++) {
+    array.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+
+  return array;
+}
 function johnLennonFacts(facts) {
   var i = 0;
   var newArray = [];
