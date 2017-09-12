@@ -5,3 +5,22 @@ function theBeatlesPlay(musicians, instruments){
   }
   return band
 }
+
+function johnLennonFacts(array){
+  let i = 0
+  while(i < array.length){
+    array[i] = array[i] + "!!!"
+    i++
+  }
+  return array
+}
+
+function iLoveTheBeatles(n){
+  let array = []
+  do{
+    array.push("I love the Beatles!")
+    n++
+  }
+  while(n < 15)
+  return array
+}
