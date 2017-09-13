@@ -8,12 +8,12 @@ var array = []
 
 function johnLennonFacts(facts){
 var i = 0
-var shoutedFacts = []
+var loudFacts = []
   while(i < facts.length) {
-    shoutedFacts.push(`${facts[i]}!!!`)
+    loudFacts.push(`${facts[i]}!!!`)
     i++
   }
-  return shoutedFacts
+  return loudFacts
 }
 
 function iLoveTheBeatles(n){
