@@ -23,4 +23,5 @@ do {
   number++;
 } while (number < 15);
 return newArray;
+
 }
