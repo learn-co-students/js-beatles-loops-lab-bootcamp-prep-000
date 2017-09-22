@@ -1,7 +1,9 @@
 function theBeatlesPlay(musicians, instruments) {
   var temp = [];
   for(let i = 0; i < musicians.length; i++) {
-    var quote = musicians[i] + " plays " + instruments[i]
+    var quote = `musicians[i] + " plays " + instruments[i]`;
+    // var quote = `${musicians[i]} plays ${instruments[i]}`;
+
     temp.push(quote);
   }
 
