@@ -5,6 +5,18 @@
 + Build a while loop
 + Build a do-while loop
 
+
+function theBeatlesPlay(musicians, instruments) {
+
+for (let y == 0; y < musicians.length; ++y) {
+  var x = [];
+  if(y == 0) {x.push(${musicians[0]} + `plays` + ${instruments[0]})
+}else if(y < musicians.length) {
+     x.push(${musicians[y]} + `plays` + ${instruments[y]})}
+
+} return x
+}
+
 ## Instructions
 
 Make sure you run the tests with `learn`.
