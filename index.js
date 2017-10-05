@@ -1,3 +1,8 @@
+/* 
+1. Declare a function named theBeatlesPlay
+2. Function accepts 2 parameter named musicians, instruments, whose values are strings. 
+3. When call function, return array of new strings
+*/
 function theBeatlesPlay(musicians, instruments) {
   var emptyArray = [];
   for(var i=0;i<musicians.length;i++){ 
@@ -7,6 +12,12 @@ function theBeatlesPlay(musicians, instruments) {
   return emptyArray
 }
 
+/* 
+1. Declare a function named johnLennonFacts
+2. Function accepts parameter named facts, whose value is string. 
+3. Use a while loop to loop over the facts array and add "!!!" to the end of every fact. 
+4. The function should return an array of strings with exclamation points.
+*/
 function johnLennonFacts(facts){  //Function accepts one argument
   var i = 0 //Declare iterator
   while (i < facts.length){ //Iterate range of elements in argument
@@ -16,6 +27,11 @@ function johnLennonFacts(facts){  //Function accepts one argument
   return facts
 }
 
+/* 
+1. Declare a function named iLoveTheBeatles.
+2. Function accepts parameter named x , whose value is number.
+3. When call function, return array with the strings "I love the Beatles!".
+*/
 function iLoveTheBeatles(x){
   var parameter = Number(x) // Makes parameter a number
   var counter = 0 // Make a counter
