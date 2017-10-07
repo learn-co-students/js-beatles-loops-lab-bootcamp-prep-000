@@ -1,7 +1,9 @@
 function theBeatlesPlay(musicians, instruments){
-var musc= [[], musicians:[instruments]]
+var muscicians = []
+var instruments= []
+var strings = []
 for (let i=0; i<3; i++) {
-musc[i].push("'$(musicians)' played '$(instruments)'")
+strings.push("'$(musicians[i])' played '$(instruments[i])'")
 }
-return musc
+return strings
 }
