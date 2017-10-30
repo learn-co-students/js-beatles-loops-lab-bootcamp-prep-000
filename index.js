@@ -25,6 +25,6 @@ function iLoveTheBeatles(n) {
   do {
     output.push('I love the Beatles!');
     i++;
-  } while (i <= n && n !== 17);
+  } while (i <= n && n < 15);
   return output;
 }
