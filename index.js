@@ -5,3 +5,8 @@ function theBeatlesPlay(musicians, instruments){
   }
 return array
 }
+
+function johnLennonFacts(facts){
+  const yelling = []
+
+}
