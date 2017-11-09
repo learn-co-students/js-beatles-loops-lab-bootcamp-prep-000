@@ -1,0 +1,37 @@
+function theBeatlesPlay(musicians, instruments) {
+  var musiciansPlay = []
+  for (let n=0; n<4; n++) {
+    musiciansPlay.push(musicians[n] + " plays " + instruments[n])
+  }
+  return musiciansPlay;
+}
+
+const facts = ["He was the last Beatle to learn to drive",
+    "He was never a vegetarian",
+    "He was a choir boy and boy scout",
+    "He hated the sound of his own voice"];
+
+function johnLennonFacts(facts) {
+  var n = 0;
+  var exclamation = [];
+      while (facts[n] > "" ) {
+      exclamation.push(facts[n] + "!!!");
+      n++;
+    }
+  return exclamation;
+}
+
+function iLoveTheBeatles(n) {
+  var n = 0
+    do {"I love the beatles!",
+      "I love the beatles!",
+      "I love the beatles!",
+      "I love the beatles!",
+      "I love the beatles!",
+      "I love the beatles!",
+      "I love the beatles!",
+      "I love the beatles!";
+    n++;
+  }
+    while (n > 6);
+}
