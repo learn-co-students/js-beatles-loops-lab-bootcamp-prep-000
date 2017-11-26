@@ -1,6 +1,4 @@
 function theBeatlesPlay (musicians, instruments) {
-  //var musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
-  //var instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
   var emptyArray = [];
 
   for (var i = 0; i < musicians.length; i++) { //this loop will start from index 0 and stop at the end of the array
@@ -16,4 +14,16 @@ while (i < facts.length){
   i++;
 } //end of the loop
 return facts;
+}
+
+
+function iLoveTheBeatles (number){
+  var empArray =[];
+
+  do {
+    empArray.push("I love the Beatles!");
+    number ++;
+  } while (number < 15);
+
+  return empArray;
 }
