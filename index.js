@@ -26,3 +26,10 @@ var i = 0
 return updatedFacts
   }
 johnLennonFacts()
+
+const array = ["i love the Beatles!"]
+var i = 0
+
+ function iLoveTheBeatles (i) {
+  // var i =0
+ }
