@@ -15,12 +15,14 @@ const facts = ["He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"]
-  var i = 0
 
   function johnLennonFacts(facts) {
-    var updatedFacts = []
-    while (i <= facts.length) {
-      updatedFacts.push (facts[i] + "!!!")
+var updatedFacts = []
+var i = 0
+    while(i < facts.length) {
+      updatedFacts.push(facts[i] + "!!!")
+      i++
     }
 return updatedFacts
   }
+johnLennonFacts()
