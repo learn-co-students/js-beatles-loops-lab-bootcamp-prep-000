@@ -3,6 +3,10 @@ function theBeatlesPlay(musicians, instruments) {
   for (var i = 0; i < musicians.length; i++)
   for (i = 0; i < instruments.length; i++) {
     myArray.push(musicians[i] + " plays " + instruments[i]);
+  var myArray = newArray()
+  for (i = 0; i<musicians.length; i++)
+  for (i = 0; i<instruments.length; i++) {
+    myArray.push("${musicians[i]} plays + ${instruments[i]}");
 }
   return myArray
 }
@@ -22,6 +26,9 @@ function johnLennonFacts(facts) {
   do {
      phrase.push("I love the Beatles!");
      number++
+
+   do {
+     phrase.push("I love the Beatles!");
    } while (number < 15)
    return phrase
  }
