@@ -5,3 +5,23 @@ function theBeatlesPlay (musicians, instruments) {
   }
   return emptyArray;
 }
+
+function johnLennonFacts (factsArray) {
+  const facts = [];
+  let i = 0;
+  while (i < factsArray.length) {
+    facts.push (`${factsArray[i]}!!!`)
+    i++
+  }
+  return facts
+}
+
+function iLoveTheBeatles (number){
+  var emptyArray = [];
+
+  do {
+    emptyArray.push (`I love the Beatles!`)
+    number ++;
+  } while (number < 15);
+  return emptyArray;
+}
