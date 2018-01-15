@@ -24,7 +24,7 @@ function iLoveTheBeatles(n) {
   
   do {
     message.push("I love the Beatles!");
-  } while( N < 15 && n > 0);
+  } while( n < 15 && n > 0);
   
   return message;
 }
