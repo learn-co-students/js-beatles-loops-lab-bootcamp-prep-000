@@ -18,7 +18,7 @@ i++
 }
 
 
-function iLoveTheBeatles(num){
+//function iLoveTheBeatles(num){
   //return an array with "I love the Beatles!" inside num number of times
 
   //var text = []
@@ -37,7 +37,7 @@ function iLoveTheBeatles(num){
   	do{
       // do somethng to the array //
         num++
-      } while (num < 7)
+      } while (num <= 7)
 
        return array
   }
