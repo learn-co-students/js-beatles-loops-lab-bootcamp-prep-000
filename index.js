@@ -33,11 +33,15 @@ i++
 //
 
 function iLoveTheBeatles(num){
-   const array = []
+  var array = []
+
   	do{
       // do somethng to the array //
+      // superheroines.push("wonder woman");
+      array.push("I love the Beatles!");
         num++
-      } while (num <= 7)
+      } while (num < 15)
+    //  text.push(`${num[i]}!`)
 
        return array
   }
