@@ -2,8 +2,9 @@
 //   console.log( "Hello World the " + i + " time" );
 // }
 
-function theBeatlesPlay(instruments,musicians){
+function theBeatlesPlay(musicians, instruments){
   var instruments = []
   var musicians = []
-  for (var musicians = 0, musicians > 0, i++) {console.log(`${musicians} plays ${instruments}`)})
+  var array = []
+  for (var musicians = 0; musicians > 0; i++) {console.log(array.push((musicians) + `plays` + array.push(instruments)))}
 }
