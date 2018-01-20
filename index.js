@@ -21,10 +21,9 @@ function iLoveTheBeatles(number){
   var n = number;
   do {
     love.push("I love the Beatles!");
-  }
-  while(n<15){
-    love.push("I love the Beatles!");
     n++;
   }
+  while(n<15);
+  
   return love;
 }
