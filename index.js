@@ -11,3 +11,14 @@ function theBeatlesPlay(musicians, instruments){
   for (var i = 0 ;  i < musicians.length; i++) {beatles.push(`${musicians[i]} plays ${instruments[i]}`)};
   return beatles
 }
+
+// while ([condition]) {
+//   [loopBody]
+// }
+
+
+function johnLennonFacts(array) {
+var i = 0
+while (i > 0) {console.log(`${array[i]}` +"!!!");
+}
+}
