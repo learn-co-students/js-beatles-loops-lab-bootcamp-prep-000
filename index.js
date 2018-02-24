@@ -1,9 +1,9 @@
 function theBeatlesPlay(musicians, instruments) {
-  var sandy = []
+  var array = []
   for (var i = 0; i < musicians.length; i++) {
-    sandy.push(`${musicians[i]} plays ${instruments[i]}`)
+    array.push(`${musicians[i]} plays ${instruments[i]}`)
   }
-  return sandy
+  return array
 }
 
 function johnLennonFacts(facts) {
