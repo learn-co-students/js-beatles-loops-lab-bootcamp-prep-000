@@ -23,7 +23,7 @@ function iLoveTheBeatles(argument){
     var argumented = 8;
   }
   else{
-    var argumented = 1;
+    argumented = 1;
   }
   do{
     array.push('I love the Beatles!');
