@@ -21,10 +21,10 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(num) {
   var beatlesLove = [];
   
-    do {
-      beatlesLove.push("I love the Beatles!");
-      num -= 1;
-    } while (num >= 0 && num < 15);
+  do {
+    beatlesLove.push("I love the Beatles!");
+    num -= 1;
+  } while (num >= 0 && num < 15);
 
   return beatlesLove;
 }
