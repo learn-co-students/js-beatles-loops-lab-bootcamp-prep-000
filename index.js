@@ -1,10 +1,19 @@
 function theBeatlesPlay(musicians,instruments){
-  var newArry = [];
-  for(var i; i <musicians.length-1;i++){
-     
-     musicians[i] = `${i}`;
-    newaArry = instruments[1] = `John Lennon plays guitar`;
-    return newArry;
+    var newaArry=[] ;
+  for(var i=0; i <= musicians.length-1;i++){
+   
+        newaArry[i] = `${musicians[i]} plays ${instruments[i]}`;
+    
+    
   }
+    return newaArry;
 }
 
+function johnLennonFacts(array){
+var newArray=[];
+var i = 0;
+while (i<=array.length-1){
+  newArray[i] = `${array[i]}!!!`;
+}
+return newArray;  
+}
