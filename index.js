@@ -11,8 +11,6 @@ function theBeatlesPlay(musicians, instruments) {
   return artistsArray;
 }
 
-const facts = ["He was less talented than other members of the Beatles", "He had unfortunate taste in sideburns", "His conduct towards women, especially when younger, was deeply unfortunate", "Imagine is perhaps one of the most bathetic songs penned in modern history, and the competition is fierce"];
-
 //function johnLennonFacts(facts) {
 //    var factsExclamation = new Array();
 //    i = 0;
@@ -26,11 +24,13 @@ const facts = ["He was less talented than other members of the Beatles", "He had
 //    return factsExclamation;
 //}
 
+const facts = ["He was less talented than other members of the Beatles", "He had unfortunate taste in sideburns", "His conduct towards women, especially when younger, was deeply unfortunate", "Imagine is perhaps one of the most bathetic songs penned in modern history, and the competition is fierce"];
+
 function johnLennonFacts(facts) {
     var factsExclamation = [];
 
   let i = 0;
-    while (i < facts.lenght) {
+    while (i < facts.length) {
       factsExclamation.push(facts[i] + "!!!");
       i++;
     }
