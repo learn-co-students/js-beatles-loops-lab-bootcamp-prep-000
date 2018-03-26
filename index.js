@@ -10,8 +10,8 @@ function theBeatlesPlay(musician, instrument){
   //2) Beatles Loops johnLennonFacts returns an array of strings with exclamation points:
 
 function johnLennonFacts(facts){
- var i = 0;
-  while (i+1 <= facts.length){
+var i = 0;
+  while (i < facts.length){
     facts[i]= facts[i] + '!!!';
     i++;
   }
@@ -26,8 +26,8 @@ function johnLennonFacts(facts){
     var newArray = [];
     do {
       newArray.push("I love the Beatles!");
-     number = number++;
-    } while (number < 17); 
+      number++;
+    } while (number < 15); 
     return newArray;
   }
      
