@@ -1,19 +1,24 @@
 function theBeatlesPlay(musicians, instruments) {
+  // const instrumentation = []
   var instrumentation = [];
   for (let i = 0; i < musicians.length; i++) {
+    // (`musicians[i] + plays + instruments[i]`);
     instrumentation.push(musicians[i] + " plays " + instruments[i]);
   }
   return instrumentation;
 }
 
 function johnLennonFacts(facts) {
+  //const ahhh = []
+  //let i = 0;
   var i = 0;
-  var fuckYou = [];
+  var ahhh = [];
   while (i < facts.length) {
-    fuckYou.push(facts[i] + "!!!");
+    //`ahhh.push(`${facts[i]}!!!`);
+    ahhh.push(facts[i] + "!!!");
     i++;
     }
-    return fuckYou;
+    return ahhh;
 }
 
 function iLoveTheBeatles(number) {
