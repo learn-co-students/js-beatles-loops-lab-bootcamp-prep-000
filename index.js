@@ -5,23 +5,15 @@ function theBeatlesPlay(musicians, instruments){
   }
   return array
 }
-//function theBeatlesPlay(musicians,instruments){
-  const array = [];
-  for (let i = 0; i < musicians.length; i++){
-    array.push(`${musicians[i]} plays ${instruments[i]}`)
-  }
-    return array
-  }
-
 function johnLennonFacts(facts){
 var i=0;
-var arr = [];
+//var arr = [];
   while (i < facts.length){
-  arr.push(`${facts[i]}!!!`);
+  //arr.push(`${facts[i]}!!!`);
+facts[i] = facts[i] + "!!!";
   i++;
-//facts[i] = facts[i] + "!!!";
     }
-  return arr
+  return facts
 }
 
 
