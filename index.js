@@ -20,7 +20,7 @@ function johnLennonFacts(facts) {
    return johnLennonFacts
 }
  
-var n =0;
+
  function iLoveTheBeatles (n) {
    var iLoveTheBeatles = []
    do {
