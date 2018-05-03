@@ -3,8 +3,10 @@ function theBeatlesPlay(arrMusic, arrInstru){
   var emptyarr=[];
  
   for(let i=0; i<arrMusic.length; i++){
-    var phrase=`${arrMusic[i]} plays ${arrInstru[i]}`;
-    emptyarr[i]=(phrase);
+    // var phrase=`${arrMusic[i]} plays ${arrInstru[i]}`;
+    // emptyarr[i]=(phrase);
+    emptyarr.push(`${arrMusic[i]} plays ${arrInstru[i]}`)
+    
   }
   return emptyarr;
 }
