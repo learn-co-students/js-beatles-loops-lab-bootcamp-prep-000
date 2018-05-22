@@ -28,18 +28,18 @@ johnLennonFacts(facts);
 console.log(facts);
 
 function iLoveTheBeatles(n) {
-  var y = n+1
+  var y = n+1;
   var storage = [];
   if(n<15) {
   do {
-    storage.push('I love the Beatles!')
-  } while (storage.length<y)
+    storage.push('I love the Beatles!');
+  } while (storage.length<y);
   }
   else {
-    storage.push('I love the Beatles!')
+    storage.push('I love the Beatles!');
   }
-  return storage
+  return storage;
 }
 
 //test function
-console.log(iLoveTheBeatles(3))
+console.log(iLoveTheBeatles(3));
