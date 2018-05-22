@@ -41,4 +41,5 @@ function iLoveTheBeatles(n) {
   return storage
 }
 
+//test function
 console.log(iLoveTheBeatles(3))
