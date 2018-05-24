@@ -27,6 +27,14 @@ function johnLennonFacts(facts) {
   }
   return factsPlusExclamation
   
+ /* function johnLennonFacts(facts) {
+  var factsPlusExclamation = []
+  for (i = 0; i < facts.length; i++) {
+    factsPlusExclamation.push(facts[i] + "!!!")
+  }
+  return factsPlusExclamation
+}*/
+  
   /*var x = 0
   while (x < facts.length) {
     facts[x] = facts[x] + "!!!"
