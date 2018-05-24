@@ -9,9 +9,10 @@ function theBeatlesPlay (musicians, instruments) {
     /*beatles.push(`${musicians[x]} plays ${instruments[x]}`)*/
   }
   /*
+  pairs first musician with last instrument, second musician with third instrument,... last musician with first instrument
   for (let x = 0, y = musicians.length-1 ; x < musicians.length ; x++, y-- ) {
     beatles.push(musicians[x] + ' plays ' + instruments[y])
-    beatles.push(`${musicians[x]} plays ${instruments[x]}`)
+    // beatles.push(`${musicians[x]} plays ${instruments[x]}`)
   }
   */
   return beatles
