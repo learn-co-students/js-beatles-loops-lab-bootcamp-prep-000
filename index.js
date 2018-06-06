@@ -15,17 +15,30 @@ return the array of new strings
 */
 function theBeatlesPlay(arrayOfMusicians, arrayOfInstruments)
 {
+  var retArray = new Array()
   
+  for(let i = 0; i < arrayOfMusicians.length; i++)
+  {
+    retArray[i] = `${arrayOfMusicians[i]} plays ${arrayOfInstruments[i]}`
+  }
+  
+  return retArray
 }
 
 /*
-Create a function johnLennonFacts. This function will accept one 
-argument, an array of facts about John Lennon (note that it might 
-not be exactly the following facts):
+Create a function johnLennonFacts. This function will accept one argument, an array of 
+facts about John Lennon. Use a while loop to loop over the facts array and add "!!!" to 
+the end of every fact. The function should return an array of strings with 
+exclamation points.
 */
 function johnLennonFacts(arrayOfFacts)
 {
+  for(let i = 0; i < arrayOfFacts.length; i++)
+  {
+    arrayOfFacts[i] += "!!!"
+  }
   
+  return arrayOfFacts
 }
 
 /*
