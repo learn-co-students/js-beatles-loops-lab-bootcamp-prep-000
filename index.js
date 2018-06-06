@@ -53,5 +53,13 @@ strings "I love the Beatles!"
 */
 function iLoveTheBeatles(number)
 {
+  var retArray = new Array()
   
+  do
+  {
+    retArray.unshift("I love the Beatles!")
+    number++
+  } while(number < 15);
+  
+  return retArray
 }
