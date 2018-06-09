@@ -6,10 +6,25 @@
 return emptyArray
   }
   
+ //2 
   function johnLennonFacts(array){
-    while (Array.length>0){
-      Array.push('!!!')
+    var i=0
+    var emptyArray= []
+    while (i<array.length){
+    emptyArray.push(`${array[i]}!!!`)
+     i++
     }
-    return Array
+    return emptyArray 
   }
   
+ 
+//3  
+function iLoveTheBeatles(number){
+  var emptyArray= []
+  do{
+    emptyArray.push("I love the Beatles!")
+    number++
+  }
+  while (number<15)
+  return emptyArray
+}
