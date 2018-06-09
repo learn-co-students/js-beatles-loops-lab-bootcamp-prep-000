@@ -6,7 +6,7 @@
 return emptyArray
   }
   
-  function johnLennonFacts(Array){
+  function johnLennonFacts(array){
     while (Array.length>0){
       Array.push('!!!')
     }
