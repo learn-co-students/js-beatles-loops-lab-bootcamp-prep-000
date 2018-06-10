@@ -26,11 +26,11 @@ function johnLennonFacts(johnLennonFacts) {
 johnLennonFacts(facts)
 
 function iLoveTheBeatles(numb) {
-   array1 = []
+    let array1 = []
    do {
    array1 = array1.concat("I love the Beatles!")
    numb++
- } while (array1.length < numb);
+ } while (numb < 15);
  return array1
 }
 iLoveTheBeatles(15)
