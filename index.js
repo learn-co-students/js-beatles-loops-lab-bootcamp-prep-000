@@ -26,7 +26,7 @@ function johnLennonFacts(johnLennonFacts) {
 johnLennonFacts(facts)
 
 function iLoveTheBeatles(numb) {
-   const array1 = []
+   array1 = []
    do {
    array1 = array1.concat("I love the Beatles!")
    numb++
