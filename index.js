@@ -3,13 +3,13 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
 function theBeatlesPlay(musicians,instruments) {
     array = [];
-    for(i = 0; i < musicians.length; i++);
+    for(let i = 0; i < musicians.length; i++);
       array.push(`{$musicians} plays ${instruments}`)
     return array;
 }
 function ohnLennonFacts(facts) {
   array = [];
-  for(i = 0; i < array.length; i++ )
+  for(let i = 0; i < array.length; i++ )
   array[i].push(facts + '!!!');
 return array;
 
