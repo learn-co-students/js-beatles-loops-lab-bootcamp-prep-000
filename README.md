@@ -1,4 +1,4 @@
-# Beatles Loops
+# Beatles Lo ops
 
 ## Objectives
 + Build a for loop
