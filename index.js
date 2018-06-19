@@ -14,10 +14,10 @@ var facts = []
 
 function johnLennonFacts(facts){
   var yay = "!!!"
-  while (Number < 4)
+  while (Number === Number)
 { 
-console.log(facts[Number] + yay)
+facts.pop(Number)
+facts.push(Number + yay)
 }
-return (facts[Number] + yay)
-
+return facts
 }
