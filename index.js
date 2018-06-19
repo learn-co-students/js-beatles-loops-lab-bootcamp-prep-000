@@ -14,7 +14,7 @@ var array = []
 
 function johnLennonFacts(array){
   while (Number < 4)
-{ console.log(array[Number])
+{ console.log(array[Number]+ "!!!")
 }
-return console.log(array[Number] + "!!!")
+return array
 }
