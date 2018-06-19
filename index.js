@@ -13,10 +13,11 @@ return playlist
 var array = []
 
 function johnLennonFacts(array){
+  var yay = "!!!"
   while (Number < 4)
-var poo = []
 { 
-poo.push(Array[Number]+ "!!!");
+console.log(array[Number] + yay)
 }
-return poo
+return (array[Number] + yay)
+
 }
