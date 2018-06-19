@@ -2,11 +2,12 @@
 function theBeatlesPlay(musicians, instruments){
   
 var  playlist= []
-
+playlist.push(
 for(let i = 0; i < 3; i++)
 {
-  playlist.push(musicians[i] 'plays' instruments[i])
+ console.log(musicians[i] + "plays" + instruments[i])
   }
-   
+   )
 return playlist
 }
+
