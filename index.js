@@ -13,8 +13,8 @@ return playlist
 var array = []
 
 function johnLennonFacts(array){
-  while (i < 4)
-{ console.log(array[i])
+  while (Number < 4)
+{ console.log(array[Number])
 }
-return array[i] + "!!!"
+return array[Number] + "!!!"
 }
