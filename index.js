@@ -15,9 +15,6 @@ var array = []
 function johnLennonFacts(array){
   while (Number < 4)
 { 
-var yay = "!!!";
-console.log(array[Number] + yay);
+console.log(array[Number] + "!!!");
 }
-return array + "!!!"
-
 }
