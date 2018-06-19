@@ -10,14 +10,14 @@ for(var i = 0; i < 4; i++)
 return playlist
 }
 
-var array = []
+var facts = []
 
-function johnLennonFacts(array){
+function johnLennonFacts(facts){
   var yay = "!!!"
   while (Number < 4)
 { 
-console.log(array[Number] + yay)
+console.log(facts[Number] + yay)
 }
-return (array[Number] + yay)
+return (facts[Number] + yay)
 
 }
