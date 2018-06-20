@@ -12,12 +12,19 @@ return playlist
 
 var facts = []
 
-function johnLennonFacts(facts){
-  var yay = "!!!"
-  while (Number === Number)
+function johnLennonFacts(array){
+  while (i < array.length)
 { 
-facts.pop(Number)
-facts.push(Number + yay)
+  i = 0
+  i++
+array[i] + "!!!"
 }
-return facts
+return array
+}
+
+function iLoveTheBeatles(Number){
+  var whoKnows = []
+  do {
+    [loopBody];
+      } while ([condition]);
 }
