@@ -17,7 +17,7 @@ var i= 0
 i++
 while (i < array.length)
 { 
-array[i] + "!!!"
+array [i] === array[i] + "!!!"
 }
 return array
 }
@@ -25,6 +25,7 @@ return array
 function iLoveTheBeatles(Number){
   var whoKnows = []
   do {
-    [loopBody];
-      } while ([condition]);
+    whoKnows.push("I love the Beatles!");
+      } while (Number<15);
+      return array
 }
