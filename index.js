@@ -16,7 +16,7 @@ var i= 0;
 
 while (i < input_facts.length)
 {
-input_facts[i] + "!!!"; //  'rosa!!!!!!!!!!!!!!!'
+input_facts[i] += "!!!"; //  'rosa!!!!!!!!!!!!!!!'
 i++;
 }
 return input_facts
