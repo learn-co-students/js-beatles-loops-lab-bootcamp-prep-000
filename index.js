@@ -17,7 +17,7 @@ var i= 0
 i++
 while (i < array.length)
 { 
-array [i] === array[i] + "!!!"
+array[i] + "!!!"
 }
 return array
 }
