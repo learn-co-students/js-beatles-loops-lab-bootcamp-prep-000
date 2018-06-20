@@ -27,5 +27,5 @@ function iLoveTheBeatles(Number){
   do {
     whoKnows.push("I love the Beatles!");
       } while (Number<15);
-      return array
+      return whoKnows
 }
