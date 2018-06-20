@@ -10,22 +10,22 @@ for(var i = 0; i < 4; i++)
 return playlist
 }
 
-var array = []
 
-function johnLennonFacts(array){
+function johnLennonFacts(input_facts){
 var i= 0
 i++
-while (i < array.length)
+while (i < input_facts.length)
 { 
-array[i] + "!!!"
+input_facts[i] + "!!!"
 }
-return array
+return input_facts
 }
 
-function iLoveTheBeatles(Number){
+function iLoveTheBeatles(num){
   var whoKnows = []
   do {
     whoKnows.push("I love the Beatles!");
-      } while (Number<15);
+    num++;
+      } while (num<15);
       return whoKnows
 }
