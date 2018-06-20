@@ -10,13 +10,14 @@ for(var i = 0; i < 4; i++)
 return playlist
 }
 
-
+// facts = ['lauren', 'rosa', 'rhino']
 function johnLennonFacts(input_facts){
-var i= 0
-i++
+var i= 0;
+
 while (i < input_facts.length)
-{ 
-input_facts[i] + "!!!"
+{
+input_facts[i] + "!!!"; //  'rosa!!!!!!!!!!!!!!!'
+i++;
 }
 return input_facts
 }
