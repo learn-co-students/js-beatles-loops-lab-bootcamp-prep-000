@@ -19,7 +19,7 @@ function johnLennonFacts(array){
 { 
   i++
   k.push(
-array[i] + "!!!")
+console.log(array[i] + "!!!"))
 }
 return k
 }
