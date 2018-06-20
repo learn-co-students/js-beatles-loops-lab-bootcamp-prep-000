@@ -13,9 +13,10 @@ return playlist
 var facts = []
 
 function johnLennonFacts(array){
+  i = 0
   while (i < array.length)
 { 
-  i = 0
+  
   i++
 array[i] + "!!!"
 }
