@@ -13,7 +13,7 @@ return playlist
 var facts = []
 
 function johnLennonFacts(array){
-  i = 0
+ var i = 0
   while (i < array.length)
 { 
   
