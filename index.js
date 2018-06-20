@@ -10,17 +10,18 @@ for(var i = 0; i < 4; i++)
 return playlist
 }
 
-var facts = []
+var array = []
 
 function johnLennonFacts(array){
  var i = 0
+ var k = []
   while (i < array.length)
 { 
   i++
-  console.log(
+  k.push(
 array[i] + "!!!")
 }
-return array
+return k
 }
 
 function iLoveTheBeatles(Number){
