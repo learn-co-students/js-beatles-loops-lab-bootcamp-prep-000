@@ -13,15 +13,13 @@ return playlist
 var array = []
 
 function johnLennonFacts(array){
- var i = 0
- var k = []
-  while (i < array.length)
+var i= 0
+i++
+while (i < array.length)
 { 
-  i++
-  k.push(
-console.log(array[i] + "!!!"))
+array[i] + "!!!"
 }
-return k
+return array
 }
 
 function iLoveTheBeatles(Number){
