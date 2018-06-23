@@ -13,7 +13,7 @@ function johnLennonFacts (facts) {
   
   while (i < facts.length) {
     list.push(facts[i] + "!!!")
-    i += 1
+    i++
   }
   return list
 }
@@ -23,7 +23,7 @@ function iLoveTheBeatles (number) {
  
   do {
    list.push("I love the Beatles!")
-   number += 1
+   number++
   } while (number < 15)
   return list
 }
