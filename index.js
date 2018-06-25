@@ -35,7 +35,7 @@ do{
 
   myArray.push("I love the Beatles!")
   num--;
-}while(num>=0 && num<8)
+}while(num>=0)
 
   return myArray
 
