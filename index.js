@@ -30,9 +30,7 @@ return arr
 function iLoveTheBeatles(number)
 {
   var arr = []
-    function maybeTrue() {
-  return Math.random() >= 0.5
-}
+    
 do{
   arr.push("I love the Beatles!")
   number ++;
