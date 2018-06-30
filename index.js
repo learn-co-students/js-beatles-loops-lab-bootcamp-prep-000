@@ -18,3 +18,13 @@ function theBeatlesPlay(musiciansArr, instrumentsArr) {
     return newArray;
   }
   
+  function iLoveTheBeatles(num) {
+    var newestArray = [];
+    var i = 0;
+    do {
+      newestArray.push("I love the Beatles!");
+      i + num;
+    }
+      while (i < 15 );
+    return newestArray;
+  }
