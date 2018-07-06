@@ -11,11 +11,11 @@ function theBeatlesPlay(m, ins) {
 
 function johnLennonFacts(f) {
   var i=0;
-  while(i<4) {
-    facts[i] =  facts[i] + "!";
+  while(i<f.length) {
+    f[i] =  f[i] + "!!!";
     i++;
   }
-  return facts;
+  return f;
 }
 
 function iLoveTheBeatles(n) {
