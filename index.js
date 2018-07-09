@@ -1,8 +1,8 @@
 // add solution here
 function theBeatlesPlay (arrayMusicians, arrayInstruments){
   var array=[]
-  for (arrayMusicians[0],arrayMusicians.length(-1), ++arrayMusicians.length){
-    array=[...array, `${arrayMusicians[0]} plays ${[arrayInstruments]}`]}
+  let index=arrayMusicians.length
+  for (arrayMusicians[0], index, --arrayMusicians.length){
+    array=[...array, `${arrayMusicians[0]} plays ${arrayInstruments[0]]}`]}
     return array
   }
-}
