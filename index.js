@@ -9,9 +9,21 @@ function theBeatlesPlay(musicians, instruments){
   }
   return got;
 }
-function johnLennonFacts(array){
-  while(1 < array.length){
-    array[i--] = `${array[i--]}!!!`
-    return array;
+
+function johnLennonFacts(array){ //facts
+  var i =0
+  while(i < array.length){
+    array[i] = `${array[i]}!!!`
+    i +=1
   }
+  return array;
+}
+
+function iLoveTheBeatles(n){
+  var emVar = []
+  do{
+    emVar.push('I love the Beatles!')
+    n++
+  } while(n < 15)
+  return emVar;
 }
