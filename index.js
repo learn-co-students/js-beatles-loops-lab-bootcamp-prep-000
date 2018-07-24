@@ -10,3 +10,17 @@ function theBeatlesPlay(array1, array2){
   return x 
 }
 
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
+
+function johnLennonFacts(array){
+  while(z<array.length){
+    z++
+    array[z]=
+    
+  }
+}
