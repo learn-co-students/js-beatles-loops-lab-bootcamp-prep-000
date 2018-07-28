@@ -15,12 +15,15 @@ function johnLennonFacts(facts){
     	i++; 
   }
     return facts;
-
 }
+
+
 function iLoveTheBeatles(number){
   var emptyArray = [];
+  
   do {
+    number++;
     emptyArray.push("I love the Beatles!");
-    }while (number<15)
-    return emptyArray;
+    }while (number < 15)
+  return emptyArray;
   }
