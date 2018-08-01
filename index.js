@@ -42,13 +42,11 @@ const facts = [
 ];
 
 function johnLennonFacts(facts) {
-  var i = 0
-   while (1 > facts.length > 0) {
+  var i = 1
+   while (0 <= facts.length < 4) {
      console.log(facts[i]++)
-     if (i > 0)
-   }}
-   return facts[i] + "!!!"
-}
+     if (i < 4)
+ return (facts[i] + "!!!")}}
 
 
 
