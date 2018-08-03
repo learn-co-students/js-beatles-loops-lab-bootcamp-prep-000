@@ -44,12 +44,11 @@ function theBeatlesPlay(musicians, instruments) {
 
 function iLoveTheBeatles(n) {
   var i = []
-  do i.push("I love the Beatles!")
-  while (n < 15; n++)
+  do {
+    i.push("I love the Beatles!")
+    ++n} while (n < 15);
   return i
 }
-
-
 
 
 
