@@ -4,7 +4,7 @@ function theBeatlesPlay (arrayMusicians, arrayInstruments){
   var newArray = [];
  
  for (var i= 0; i < arrayMusicians.length; i++){
-   newArray.push (arrayMusicians[i] + " plays  " + arrayInstruments[i]);
+   newArray.push (arrayMusicians[i] + " plays " + arrayInstruments[i]);
  }
  return newArray;
 }
@@ -12,10 +12,10 @@ function theBeatlesPlay (arrayMusicians, arrayInstruments){
 
 
 function johnLennonFacts(arrFacts){
-  let newFacts = [];
+  var newFacts = [];
   var i = 0
   
-  while (i < arrFacts){
+  while (i < arrFacts.length){
   newFacts.push (arrFacts[i] + "!!!");
   i++;
   }
