@@ -17,22 +17,21 @@ const facts = [
 
 function johnLennonFacts(facts) {
   var i = 0;
-  var j = '!!!';
+  // var j = '!!!'; not workinng when doing facts[i].concat(j)
   var myArray= new Array();
 
   while (i < facts.length) {
-    myArray[i] = facts[i].concat('!!!'); // tried plus for concat; concat not working, tested in console.
+    myArray[i] = facts[i].concat('!!!');
     ++i; // tried ++1
   }
   return myArray;
 }
-//
-//
-// function  iLoveTheBeatles(n) {
-//   var myArray = new Array();
-//   do {
-//     myArray.push("I love the Beatels!");
-//     n++;
-//   } while(n <15);
-//   return myArray;
-// }
+
+function  iLoveTheBeatles(n) {
+  var myArray = new Array();
+  do {
+    myArray.push('I love the Beatles!');
+    n++;
+  } while(n < 15);
+  return myArray;
+}
