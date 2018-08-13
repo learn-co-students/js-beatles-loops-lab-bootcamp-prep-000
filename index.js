@@ -15,6 +15,7 @@ const lennonFacts = [
   "He hated the sound of his own voice"
 ];
 
+// creates a function johnLennonFacts that accepts an array as a paremeter, the code block creates an empty array lennonResult and a counter variable i assigned to equal to 0; the while loop runs  as long as i < the length of the facts array accepted as the parameter. The loop body adds "!!!" to the fact[i] element and pushes the string to the lennonResult array and returns the array lennonResult
 function johnLennonFacts(facts) {
   var lennonResult = [];
   var i = 0;
@@ -25,6 +26,7 @@ function johnLennonFacts(facts) {
   return lennonResult;
 };
 
+// creates a function iLoveBeatles that accepts n as a parameter. The function creates an empty array beatlesArray and a do while loop that pushes the string "I love the Beatles!" to the beatlesArray and increments n after each iteration. The loop runs while n < 15. Finally the function retursn the beatlesArray
 function iLoveTheBeatles(n) {
   var beatlesArray = [];
   do {
