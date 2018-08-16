@@ -14,3 +14,16 @@ function johnLennonFacts (facts)
   }
   return facts;
 }
+
+function iLoveTheBeatles () {
+const array = [];
+var text = ""
+var i = 0;
+
+do {
+    text += "<br>I Love the Beatles! " + i;
+    i++;
+}
+while (i < 8); 
+
+}
