@@ -15,15 +15,13 @@ function johnLennonFacts (facts)
   return facts;
 }
 
-function iLoveTheBeatles () {
+function iLoveTheBeatles (n) {
 const array = [];
-var text = ""
 var i = 0;
 
 do {
-    text += "<br>I Love the Beatles! " + i;
-    i++;
+    "I Love the Beatles! " ;i++;
 }
-while (i < 8); 
+while (i < 8 ); 
 
 }
