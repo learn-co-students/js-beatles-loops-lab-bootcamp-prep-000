@@ -15,17 +15,18 @@ function johnLennonFacts(array){
   return arr;
 }
 
-var i = 0;
- 
-function incrementVariable() {
-  i = i + 1;
-}
+
+
+
 
 function iLoveTheBeatles(num){
+  function incrementVariable() {
+    num = num + 1;
+  } 
   var emp = [];
   do {
     emp.push("I love the Beatles!")
     incrementVariable();
-  } while (num < 15);
-
+  } while (num < 15)
+  return emp;
 }
