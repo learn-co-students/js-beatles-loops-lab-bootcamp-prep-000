@@ -6,7 +6,14 @@
 + Build a while loop
 + Build a do-while loop
 
-## Instructions
+## Instrucfunction theBeatlesPlay (musician, inst){
+  var array = [];
+  for (var i = 0;i < musician.length; i+ 1)
+  {
+    array.push(musician[0] + " plays " + inst[0])
+  }
+  return array
+}tions
 
 Make sure you run the tests with `learn`.
 
