@@ -7,9 +7,20 @@ return array
 }
 
 function johnLennonFacts(facts) {
-  var i = facts.length
-  while (i > 0) {
-    facts.push(`${facts} !!!`);
-     i--
+  var i = 0
+  var array = []
+  while (i < facts.length) {
+    array.push(facts[i] + "!!!");
+    i++
   }
+  return array
+}
+
+function iLoveTheBeatles(number) {
+  var array = []
+  do {
+    array.push("I love the Beatles!")
+    number++
+  } while (number < 15)
+  return array
 }
