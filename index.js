@@ -11,3 +11,35 @@ var i = 0
    }
    return array1
 }
+
+
+
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
+//johnLennonFacts(facts)
+function johnLennonFacts(arrayFacts){
+  let arrayLennonFacts = []
+  let i = 0
+  while (arrayLennonFacts.length < arrayFacts.length) {
+    arrayLennonFacts.push(arrayFacts[i] + '!!!')
+    i++
+    //console.log(arrayLennonFacts)
+  }
+  return arrayLennonFacts
+}
+
+
+
+function iLoveTheBeatles(number) {
+  let arrayFinal = []
+  do {
+    arrayFinal.push('I love the Beatles!')
+    number++
+  } while (number < 15) {
+    return arrayFinal
+  }
+}
