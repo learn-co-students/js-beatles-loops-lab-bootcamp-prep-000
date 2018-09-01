@@ -10,12 +10,22 @@ function theBeatlesPlay(array1,array2){
   return theBeatlesPlayThis;
 }
 
+function johnLennonFacts(array) {
+  let i = 0;
+  let lennonFacts= [];
+   while (i <= array.length - 1){
+    console.log(array[i]);
+       lennonFacts.push(array[i] + '!!!');
+       i++; 
+  }
+  return lennonFacts;
+}
 
 function iLoveTheBeatles(int) 
 { var newArray = [];
   do {
     newArray.push("I love the Beatles!");
        int++;
-  } while ([int<15]);
+  } while (int<15);
       return newArray;
 }
