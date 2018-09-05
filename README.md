@@ -1,4 +1,8 @@
-# Beatles Loops
+// add solution here
+function theBeatlesPlay(aArray, iArray) {
+  var array = [];
+  for (var i = aArray.lenght; i === 0; )
+}# Beatles Loops
 
 ## Objectives
 
