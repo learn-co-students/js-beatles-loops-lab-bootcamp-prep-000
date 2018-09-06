@@ -1,4 +1,5 @@
 // add solution here
+
 function theBeatlesPlay(musicians, instruments) {
   var array = []
   for (var i = 0; i < musicians.length; i++) {
@@ -10,7 +11,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(facts) {
   var array = []
   var i = 0
-  while (facts.length > i) {
+  while (facts.length > i){
     array.push(`${facts[i]}!!!`)
     i++
   }
@@ -19,9 +20,10 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   var array = []
+  var i = 0
   do {
     array.push(`I love the Beatles!`)
     number++
-  } while (number < 15)
+  } while(number < 15)
   return array
 }
