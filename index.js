@@ -16,9 +16,14 @@ function johnLennonFacts(facts) {
 }
   return newArray
 }
-function iLoveTheBeatles() {
-  let array1 = []
-  do { array1.shift('I love the Beatles!') }
-  while (7 <= array1.length <= 15)
-  return array1
+function iLoveTheBeatles(number) {
+  let knownArray = []
+  let n = 'I love the Beatles!'
+  do { 
+    knownArray.push(n)
+    console.log(knownArray[number])
+    number++;
+  } while (7 <= number && number < 15)
+  
+  return knownArray
 } 
