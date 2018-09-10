@@ -8,9 +8,9 @@ function theBeatlesPlay(arrMusicians, arrInstruments) {
   catch(err) {
     console.log("Error: " + err)
   }
-  arrTheBeatlesPlay = []
+  let arrTheBeatlesPlay = []
   for (let i = 0; i < arrMusicians.length; ++i){
-    arrTheBeatlesPlay.append(arrMusicians[i] + " plays " + arrInstruments[i])
+    arrTheBeatlesPlay.push(arrMusicians[i] + " plays " + arrInstruments[i])
   }
   return arrTheBeatlesPlay;
 }
@@ -19,6 +19,7 @@ function johnLennonFacts(arrFacts) {
   let i = 0;
   while (i < arrFacts.length) {
     arrFacts[i] = arrFacts[i] + "!!!";
+    ++i;
   }
   return arrFacts;
 }
@@ -26,7 +27,8 @@ function johnLennonFacts(arrFacts) {
 function iLoveTheBeatles(n) {
   let arrILoveTheBeatles = [];
   do {
-    arrILoveTheBeatles.append("I love the Beatles!");
+    arrILoveTheBeatles.push("I love the Beatles!");
     ++n;
   } while (n < 15);
+  return arrILoveTheBeatles;
 }
