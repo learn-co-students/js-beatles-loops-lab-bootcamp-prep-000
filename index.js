@@ -15,6 +15,20 @@ function johnLennonFacts(facts) {
   return facts
 }
 
+/*OFFICIAL SOLUTION
+function johnLennonFacts(facts) {
+  const shoutedFacts = []
+
+  let i = 0
+  while (i < facts.length) {
+    shoutedFacts.push(`${facts[i]}!!!`)
+    i++
+  }
+
+  return shoutedFacts
+}
+*/
+
 function iLoveTheBeatles(n) {
   var array = []
   do {
