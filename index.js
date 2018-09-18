@@ -13,9 +13,7 @@ function johnLennonFacts(factsJohnLennon){
 let i=0
 while(i<factsJohnLennon.length){
   exclamationFacts.push(factsJohnLennon[i]+"!!!");
-  i++}
-  
-return exclamationFacts}
+  i++}return exclamationFacts}
 
 
 
