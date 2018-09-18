@@ -24,8 +24,7 @@ function iLoveTheBeatles(num) {
       return tmp;
     } else {
       tmp.push("I love the Beatles!");
-      i++;
     }
-  } while (i < 15 || 15%i === 0)
+  } while (i++ < 15)
   return tmp;
 }
