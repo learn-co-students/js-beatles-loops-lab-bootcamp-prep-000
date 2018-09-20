@@ -1,6 +1,5 @@
 // add solution here
 
-
 function theBeatlesPlay(musicians, instruments) {
   var arr=[];
   for (let i=0; i< musicians.length; i++) {
@@ -10,13 +9,17 @@ function theBeatlesPlay(musicians, instruments) {
   return arr;
 }
 
+
 function johnLennonFacts(facts) {
   var i = 0;
+  var arr = []
   while (i < facts.length) {
-    facts[i] = facts[i] + "!!!"
+    arr.push(facts[i] + "!!!")
+    i++
   }
-  return facts;
+  return arr;
 }
+
 
 
 function iLoveTheBeatles(n) {
@@ -27,6 +30,7 @@ function iLoveTheBeatles(n) {
   } while (n < 15);
   return arr;
 }
+
 
 
 
