@@ -18,10 +18,9 @@ return factsArray
 
 function iLoveTheBeatles(n) {
   var empty = []
-  let i = 1
     do {
         empty.push(`I love the Beatles!`);
-      i++
-    } while (n < 15 && i <= n + 1);
+      n++
+    } while (n < 15);
 return empty
 }
