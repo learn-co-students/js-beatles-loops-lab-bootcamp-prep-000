@@ -6,20 +6,22 @@ function theBeatlesPlay(musicians, instruments) {
   return array;
 }
 
+
 function johnLennonFacts(facts) {
- var array = [];
- var i = 0;
+  var i = 0;
+  var array = [];
   while(i < facts.length) {
-    array.push(facts[i] + '!!!' );
+    array.push(`${facts[i]}!!!`);
     i++;
   }
   return array;
 }
 
+
 function iLoveTheBeatles(number) {
   var array = [];
   do {
-    array.push('I love the Beatles!');
+    array.push("I love the Beatles!");
     number++;
   }
   while(number < 15);
@@ -27,7 +29,7 @@ function iLoveTheBeatles(number) {
 }
 
 /*
-  describe('iLoveTheBeatles', function() {
+    describe('iLoveTheBeatles', function() {
     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
       expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
     });
@@ -38,5 +40,4 @@ function iLoveTheBeatles(number) {
   });
 
 });
-
 */
