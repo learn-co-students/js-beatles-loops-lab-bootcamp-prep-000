@@ -25,6 +25,7 @@ i++
 return facts;
 }
 
+<<<<<<< HEAD
 function iLoveTheBeatles(someNumber){
   var i = someNumber;
   var someVar = [];
@@ -42,3 +43,6 @@ do {
 return someVar;
 
 }
+=======
+function iLoveTheBeatles(){}
+>>>>>>> 2f7b31e2938d2c59a1ce0a02ad889505970556a8
