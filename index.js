@@ -19,7 +19,7 @@ var lennonFacts = [ "He was the last Beatle to learn to drive",
 
 function johnLennonFacts () {
   while (i=0, i<=lennonFacts.length, i++){
-    console.log(`Did you know, ${lennonFacts[i]}!!!'); 
+    console.log(`Did you know, ${lennonFacts[i]}!!!`); 
   } 
 } ; 
 
