@@ -1,12 +1,26 @@
 // add solution here
-var musicians = ["jagger","mercury", "madonna"]; 
+/* Create a function johnLennonFacts.
 
-var instruments = ["drums", "bass", "piano" ]; 
+This function will accept one argument, an array of facts about John Lennon:
 
-function theBeatlesPlay(musicians, instruments){
- for (i=0; i<musicians.length; i++){
-   console.log (`${musicians[i]} plays ${instruments[i]}`); 
- } 
-} 
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian", 
+  "He was a choir boy and boy scout", 
+  "He hated the sound of his own voice" 
+];
+Use a while loop to loop over the facts array and add "!!!" to the end of every fact.*/ 
 
-theBeatlesPlay(musicians, instruments); 
+var lennonFacts = [ "He was the last Beatle to learn to drive",
+  "He was never a vegetarian", 
+  "He was a choir boy and boy scout", 
+  "He hated the sound of his own voice" 
+]; 
+
+function johnLennonFacts () {
+  while (i=0, i<=lennonFacts.length, i++){
+    console.log(`Did you know, ${lennonFacts[i]}!!!'); 
+  } 
+} ; 
+
+johnLennonFacts(lennonFacts); 
