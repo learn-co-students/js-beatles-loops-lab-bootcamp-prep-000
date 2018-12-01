@@ -17,6 +17,17 @@ function johnLennonFacts(facts) {
 }
 
 
+function iLoveTheBeatles(number) {
+  var array = [];
+  do{
+    array.push("I love the Beatles!");
+    number++;
+  }
+  while(number < 15);
+  return array;
+}
+
+
 /*
   expect(theBeatlesPlay(musicians, instruments)).toEqual(["John Lennon plays Guitar", "Paul McCartney plays Bass Guitar", "George Harrison plays Lead Guitar", "Ringo Starr plays Drums"]);
   });
