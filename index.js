@@ -7,25 +7,24 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  var array = [];
   var i = 0;
+  var array = [];
   while(i < facts.length) {
-   array.push(`${facts[i]}!!!`);
-   i++;
+    array.push(`${facts[i]}!!!`);
+    i++;
   }
   return array;
 }
-
 
 function iLoveTheBeatles(number) {
   var array = [];
-  do{
+  do {
     array.push("I love the Beatles!");
     number++;
-  }
-  while(number < 15);
+  } while(number < 15);
   return array;
 }
+
 
 
 /*
