@@ -1,26 +1,27 @@
 // add solution here
 function theBeatlesPlay(arrM, arrI){
-  empArr = [];
-  for(i=0; i < arrM.length; i++){
-    str = `${arrM[i]} plays ${arrI[i]}`;
+  let empArr = [];
+  for(var i=0; i < arrM.length; i++){
+    let str = `${arrM[i]} plays ${arrI[i]}`;
     empArr.push(str)
   }
   return empArr 
 }
 
 function johnLennonFacts(factsArr){
-  let count = 1;
+  let count = 0;
+  let newArr = [];
 
   while(count < factsArr.length){
-    factsArr.push('!!!');
+    newArr.push(factsArr[count].concat('!!!'));
     ++count;
   }
-
+  return newArr;
 }
 
 
 function iLoveTheBeatles(num){
-  empArr = [];
+  let empArr = [];
   do{
     empArr.push('I love the Beatles!');
     ++num;
