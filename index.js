@@ -1,5 +1,5 @@
 function theBeatlesPlay (arraym, arrayi){
-  var x=new Array();
+  var x=[];
   var string="";
   for(let i=0; i<arraym.length;i++){
     string=arraym[i]+" plays " +arrayi[i];
@@ -25,10 +25,9 @@ function johnLennonFacts (facts){
 
 function iLoveTheBeatles (num){
   var x=[];
-  do{
-    x.push("I love the Beatles!")
-  }
-  while (num<14){
+  x.push("I love the Beatles!")
+  num++;
+  while (num<15){
      x.push("I love the Beatles!")
      num++
   }
