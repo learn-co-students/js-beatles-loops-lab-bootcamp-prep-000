@@ -16,6 +16,8 @@ function johnLennonFacts(array){
   return array
 }
 
+// check
+
 // function johnLennonFacts(array){
 //   var factsIndex = 0
 //   var newArray = []
