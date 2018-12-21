@@ -48,3 +48,45 @@ number is less than `15`. The function should return the array with the strings
 `"I love the Beatles!"`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-beatles-loops-lab' title='Beatles Loops'>Beatles Loops</a> on Learn.co and start learning to code for free.</p>
+
+
+
+
+function johnLennonFacts(arraythree) {
+  const facts = [];
+  
+  while 
+  facts.push(`${arraythree} !!!`)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function iLoveTheBeatles (n) {
+  const emptyish = [];
+  
+  var i = 0;
+  
+  function incrementVariable() {
+    i = i + 1;
+  }
+  
+  do {
+    emptyish.push ("I love the Beatles!");
+    incrementVariable();
+  }
+    while (n < 15);
+    
+  return emptyish;
+}
