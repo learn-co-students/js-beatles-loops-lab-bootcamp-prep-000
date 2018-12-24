@@ -8,5 +8,23 @@ function theBeatlesPlay(musicians, instruments){
 }
 
 function johnLennonFacts (facts){
-  
+  var empty = [];
+  let n = 0;
+  while (n<facts.length){
+empty.push(`${facts[n]}!!!`); 
+n++;
+  }
+  return empty;
+}
+
+function iLoveTheBeatles (i){
+  var empty = [];
+  function incrementNumber() {
+    i + 1}
+  do {
+    empty.push("I love the Beatles!");
+    incrementNumber();
+  } while
+    (i < 16);
+    return empty;
 }
