@@ -20,11 +20,11 @@ n++;
 function iLoveTheBeatles (i){
   var empty = [];
   function incrementNumber() {
-    i + 1}
+  i = i + 1}
   do {
     empty.push("I love the Beatles!");
     incrementNumber();
   } while
-    (i < 16);
+    (i < 15);
     return empty;
 }
