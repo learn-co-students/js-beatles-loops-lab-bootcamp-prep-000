@@ -13,22 +13,22 @@ function theBeatlesPlay(musicians, instruments){
 
 
 function johnLennonFacts(facts){
-var empty= [];
+var empty1= [];
 let i =0;
 while (i <facts.length){
-empty.push(`${facts[i]}!!!`);
+empty1.push(`${facts[i]}!!!`);
 i++;
 }
-return empty;
+return empty1;
 }
 
 function iLoveTheBeatles(x) {
-   var emptyArr2 = [];
+   var empty2 = [];
    do {
-     emptyArr2.push("I love the Beatles!");
+     empty2.push("I love the Beatles!");
      x++
    } while (x < 15);
-   return emptyArr2;
+   return empty2;
  } 
 
 
