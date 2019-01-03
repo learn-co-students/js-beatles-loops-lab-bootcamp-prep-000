@@ -24,15 +24,7 @@ function johnLennonFacts(array){
   return temp;
 }
 
-/*function iLoveTheBeatles(n){
-  const arr=[];
-    do{
-    arr.push('I love the Beatles!);
-    n++;
-  }while(n<15);
-  return arr;
-}*/
-// I have to check what is wrong with the above code. cant find.That was the code written by me for this lab.Not working
+
 function iLoveTheBeatles(n) {
   const arr = []
 
