@@ -10,4 +10,13 @@ return emptyArray;
 }
 
 
+function johnLennonFacts(factArray) {
+  var i = 0;
+  var newFacts = []
+  while(factArray.length > i) {
+    newFacts.push(factArray[i] + "!!!");
+    i++;
+  }
+return newFacts;
+}
 
