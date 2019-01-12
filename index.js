@@ -28,23 +28,9 @@ function iLoveTheBeatles(number) {
     number++;
   } while 
       (number < 15 && ((15-number) > 0));
-    return answers
+    return answers;
 }
 
-//     function iLoveTheBeatles(number) {
-//       var answers = [];
-// <<<<<<< HEAD
-//       do {(answers.push('I love the Beatles!') &&
-//       number++)}
-//       while (number < 15)
-//       return answers;
-// =======
-//       number = 0;
-//       do {(answers.push('I love the Beatles!') &&
-//       number++)}
-//       while ((15 - number < 15 )
-//       )return answers;
-// >>>>>>> c5ed00e7264656be3832311ba882bd927b956b03
-//     }
+
      
      
