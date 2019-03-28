@@ -3,26 +3,25 @@
 // empty array stored in a variable. The function should also contain a for loop
 // which loops over the array of musicians.
 var theBeatlesPlay = function(musicians, instruments) {
- const theBeatles = []
-
- for (var i = 0; i < 4; i++)
-   theBeatles.push(`${musicians[i]} plays ${instruments[i]}`)
-   return theBeatles
+  var Beatles = []
+  for (var i = 0; i < 4; i++) {
+    Beatles.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+  return Beatles
 }
 // + Create a function `johnLennonFacts`. This function will accept one argument, an
 // array of facts about John Lennon.
 // Use a while loop to loop over the facts array and add `"!!!"` to the end of
 // every fact. The function should return an array of strings with exclamation
 // points.
-
 var johnLennonFacts = function(factsArray) {
- const facts = []
- var i = 0
+  const facts = []
+  var i = 0
 
- while (factsArray.length > i){
-     facts.push(`${factsArray[i]}!!!`);
-     i++;
-}
+  while (i < factsArray.length) {
+    facts.push(`${factsArray[i]}!!!`)
+    i++
+  }
   return facts
 }
 // + Create a function `iLoveTheBeatles` which accepts a number as a parameter. The
@@ -32,14 +31,12 @@ var johnLennonFacts = function(factsArray) {
 // parameter. The condition of the loop should check to see that the parameter
 // number is less than `15`. The function should return the array with the strings
 // `"I love the Beatles!"`.
-
 var iLoveTheBeatles = function(n) {
-  const newArray = []
+  let beatlesArray = []
 
   do {
-    newArray.push('I love the Beatles!')
-    n = n + 1
-  }
-  while (n < 15)
-  return newArray
+    beatlesArray.push(`I love the Beatles!`)
+    n++
+  } while (n < 15)
+  return beatlesArray
 }
