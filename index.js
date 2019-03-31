@@ -4,23 +4,18 @@
 
 function theBeatlesPlay(musicians, instruments) {
   const music = []
-    for(let i = 0; i < musicians.length; i++ ) {
-    music.push(`${musicians[i]} plays ${instruments[i]}`)
+    for(let x = 0; x < musicians.length; x++ ) {
+    music.push(`${musicians[x]} plays ${instruments[x]}`)
 }
 return music
 }
 
-function johnLennonFacts(facts){
-  const info = [
-    "He was the last Beatle to learn to drive",
-    "He was never a vegetarian",
-    "he was a choir boy and a boy scout",
-    "He hated teh sound of his own voice"
-    ];
-  let i = 0
-  while (i < info.length) {
-    info.push(`${info[i]}!!!`)
-    i++
+function johnLennonFacts(john){
+ const facts = []
+  let x = 0
+  while (x < john.length) {
+    facts.push(`${john[x]}!!!`)
+    x++
   }
-  return info
+  return facts
 }
