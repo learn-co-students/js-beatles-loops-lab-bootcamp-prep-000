@@ -2,16 +2,19 @@
 //
 //#1 theBeatlesPlay
 
-// function theBeatlesPlay (musiciansArray, instrumentsArray) {
-//
-// let x = []
-//
-// let mLen = musiciansArray.length;
-// let iLen = instrumentsArray.length;
-//
-// for (i = 0; i < mLen; i++)
-// x.push(musiciansArray[0] + ' plays ' instrumentsArray[0])
-// }
+function theBeatlesPlay (musiciansArray, instrumentsArray) {
+
+let arr = []
+
+let mLen = musiciansArray.length;
+let iLen = instrumentsArray.length;
+
+for (i = 0; i < mLen; i++)
+console.log(musiciansArray[i],' plays',instrumentsArray[i])
+console.log(arr)
+}
+
+// //getting the following error: "SyntaxError: missing ) after argument list"
 
 // //#2 johnLennonFacts
 //
