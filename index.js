@@ -21,8 +21,8 @@ function johnLennonFacts(facts) {
   while(facts.length > i) {
     { 
     
-    container.push(facts[i])  
-    console.log(`${facts[i]"!!!"`);
+    container.push(`facts[i]"!!!"`)  
+    
     i++
   }
 }
