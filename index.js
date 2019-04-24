@@ -23,7 +23,7 @@ function johnLennonFacts(array, element) {
 }
   
 */
-function iLoveTheBeatles() {
+function iLoveTheBeatles(15) {
  
   var i = 0;
   function incrementVariable() {
@@ -33,5 +33,5 @@ function iLoveTheBeatles() {
   do {
     console.log("I love the Beatles!");
   }
-  while (incrementVariable() > 15);
+  while (incrementVariable() < 15);
 }
