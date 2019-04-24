@@ -1,6 +1,6 @@
 
-var musican = ['johnLennon', 'ringoStarr', 'georgeHarris', 'paulMccartney']
-var instrument = ['guitar', 'drums', 'bass', 'vocals']
+var musican = ['John Lennon', 'Ringo Starr', 'George Harrison', 'Paul Mccartney']
+var instrument = ['Guitar', 'Drums', 'Lead Guitar', 'Bass Guitar']
 function theBeatlesPlay(array) {
   for(let i= 0; i < 4; i++ ) {
     array.push(`${musican} plays ${instrument}`)
