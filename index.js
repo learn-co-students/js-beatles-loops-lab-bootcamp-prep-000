@@ -2,8 +2,8 @@
 function theBeatlesPlay(array) {  
   const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]
   const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]
-    for (let i= 1; i <5; i++) {
-      array.push(`${musicians} plays ${instruments}`)
+    for (let i= 0; i <5; i++) {
+      array.push(`${musicians[i]} plays ${instruments[i]}`)
   }
   return array
 }
@@ -11,12 +11,13 @@ function theBeatlesPlay(array) {
 
 function johnLennonFacts(facts) {
   var i = 0;
-
-while(i < facts.length){
-  	facts[i] + "!!!";
+  var newFacts = [];
+  while(i < facts.length){
+  	var string = facts[i] + "!!!";
+  	newFacts.push(string);
   	i++;
   }
-  return facts
+  return newfacts
 }
 
 
