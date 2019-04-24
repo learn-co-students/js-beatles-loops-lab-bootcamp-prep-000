@@ -1,5 +1,6 @@
 
-var array = [musican, instrument]
+var musican = ['johnLennon', 'ringoStarr', 'georgeHarris', 'paulMccartney']
+var instrument = ['guitar', 'drums', 'bass', 'vocals']
 function theBeatlesPlay(array) {
   for(let i= 0; i < 4; i++ ) {
     array.push(`${musican} plays ${instrument}`)
