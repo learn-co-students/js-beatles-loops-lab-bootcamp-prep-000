@@ -30,9 +30,8 @@ function iLoveTheBeatles(num) {
     return i;
   }
   do {
-    console.log("I love the Beatles!");
+    love.push("I love the Beatles!");
   }
   while (incrementVariable() < 15);
-  
   return love
 }
