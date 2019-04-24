@@ -5,7 +5,7 @@ function theBeatlesPlay(array) {
   for (let i= 1; i <4; i++ ) {
     array.push(`${musican} plays ${instrument}`)
   }
-  return array
+  return theBeatlesPlay
 }
 
 function johnLennonFacts(array) {
@@ -18,11 +18,11 @@ function johnLennonFacts(array) {
   while (array) {
     facts.push(`${facts} '!!!`)
   }
-  return array
+  return johnLennonFacts
 }
   
 
-function iLoveTheBeatles(array) {
+function iLoveTheBeatles(num) {
  
   var i = 0;
   function incrementVariable() {
@@ -32,6 +32,6 @@ function iLoveTheBeatles(array) {
   do {
     console.log("I love the Beatles!");
   }
-  while (incrementVariable() < 15);
+  while (incrementVariable() < num);
 }
   
