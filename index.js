@@ -1,4 +1,4 @@
-
+/*
 function theBeatlesPlay(array) {  
   const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]
   const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]
@@ -22,7 +22,7 @@ function johnLennonFacts(array, element) {
   return facts 
 }
   
-/*
+*/
 function iLoveTheBeatles() {
  
   var i = 0;
@@ -33,6 +33,5 @@ function iLoveTheBeatles() {
   do {
     console.log("I love the Beatles!");
   }
-  while (incrementVariable() < 15);
+  while (incrementVariable() > 15);
 }
-*/
