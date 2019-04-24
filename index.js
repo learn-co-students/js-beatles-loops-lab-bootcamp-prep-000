@@ -8,6 +8,7 @@ function theBeatlesPlay(array) {
   return array
 }
 
+
 function johnLennonFacts(facts) {
   var i = 0;
 
