@@ -32,6 +32,6 @@ function iLoveTheBeatles(num) {
   do {
     love.push("I love the Beatles!");
   }
-  while (incrementVariable() < 15);
+  while (incrementVariable() < 15 && > 8);
   return love
 }
