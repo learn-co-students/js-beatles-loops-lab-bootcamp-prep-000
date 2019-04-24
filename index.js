@@ -12,15 +12,13 @@ function johnLennonFacts(facts) {
   var i = 0;
 
 while(i < facts.length){
-  	facts[i];
+  	facts[i] + "!!!";
   	i++;
-  	
-  	facts[i] = facts[i] + "!!!"
   }
-  return johnLennonFacts
+  return facts
 }
 
-/*
+
 function iLoveTheBeatles(array) {
  
   var i = 0;
@@ -33,4 +31,3 @@ function iLoveTheBeatles(array) {
   }
   while (incrementVariable() < 15);
 }
-*/
