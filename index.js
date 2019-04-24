@@ -27,6 +27,7 @@ function iLoveTheBeatles(num) {
    var i = num;
    function incrementVariable() {
     i = i + 1;
+    return i++
   }
   do {
     love.push("I love the Beatles!");
