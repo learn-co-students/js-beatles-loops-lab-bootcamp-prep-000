@@ -8,6 +8,10 @@ function theBeatlesPlay(array) {
   return array
 }
 
+function johnLennonFacts() {
+  
+}
+
 
 function iLoveTheBeatles(array) {
  
