@@ -1,4 +1,4 @@
-function theBeatlesPlay(key, value) {  
+function theBeatlesPlay(array) {  
   var musican = [John Lennon: 'Guitar', Ringo Starr: 'Drums', George Harrison: 'Lead Guitar', Paul Mccartney: 'Bass Guitar'];
   for (let i= 1; i <4; i++ ) {
     array.push(`${key} plays ${value}`)
