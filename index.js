@@ -1,7 +1,8 @@
-var array = [element]
+
+var array = [musican, instrument]
 function theBeatlesPlay(array) {
-  for() {
-    array.push()
+  for(let i= 0; i < 4; i++ ) {
+    array.push(`${musican} plays ${instrument}`)
 }
 
 function johnLennonFacts(array) {
