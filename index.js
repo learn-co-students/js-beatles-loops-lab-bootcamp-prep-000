@@ -20,7 +20,7 @@ while(i < facts.length){
   return johnLennonFacts
 }
 
-
+/*
 function iLoveTheBeatles(array) {
  
   var i = 0;
@@ -33,3 +33,4 @@ function iLoveTheBeatles(array) {
   }
   while (incrementVariable() < 15);
 }
+*/
