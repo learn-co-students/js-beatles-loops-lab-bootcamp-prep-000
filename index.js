@@ -10,20 +10,20 @@ function theBeatlesPlay(array) {
 
 */ 
 
-function johnLennonFacts(array) {
+function johnLennonFacts(array, element) {
   const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-  while (n >0) {
-   console.log(facts.push(`${facts} '!!!`))
+  while (0 >8) {
+   console.log(facts.push('!!!'))
   }
   return facts 
 }
   
-
+/*
 function iLoveTheBeatles() {
  
   var i = 0;
@@ -36,3 +36,4 @@ function iLoveTheBeatles() {
   }
   while (incrementVariable() < 15);
 }
+*/
