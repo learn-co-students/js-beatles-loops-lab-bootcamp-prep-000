@@ -1,8 +1,7 @@
 function theBeatlesPlay(array) {  
-  var musican = ['John Lennon', 'Ringo Starr', 'George Harrison', 'Paul Mccartney']
-  var instrument = ['Guitar', 'Drums', 'Lead Guitar', 'Bass Guitar']
+  var musican = [John Lennon: 'Guitar', Ringo Starr: 'Drums', George Harrison: 'Lead Guitar', Paul Mccartney: 'Bass Guitar']
   for (let i= 1; i <4; i++ ) {
-    array.push(`${musican} plays ${instrument}`)
+    array.push(`${key} plays ${element}`)
   }
   return array
 }
