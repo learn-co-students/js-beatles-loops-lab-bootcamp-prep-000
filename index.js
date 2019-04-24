@@ -12,10 +12,12 @@ function johnLennonFacts(array) {
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-  while (array.push(`${array} '!!!`))
-  
+  while (array) {
+    array.push(`${array} '!!!`)
+  }
   return array
 }
+  
 
 function iLoveTheBeatles(array) {
  
