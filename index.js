@@ -2,8 +2,10 @@
 var musican = ['John Lennon', 'Ringo Starr', 'George Harrison', 'Paul Mccartney']
 var instrument = ['Guitar', 'Drums', 'Lead Guitar', 'Bass Guitar']
 function theBeatlesPlay(array) {
-  for(let i= 0; i < 4; i++ ) {
+  for (let i= 1; i <4; i++ ) {
     array.push(`${musican} plays ${instrument}`)
+  }
+  return array
 }
 
 function johnLennonFacts(array) {
@@ -33,4 +35,3 @@ function iLoveTheBeatles(array) {
   while (incrementVariable() < 15);
 }
   
-}
