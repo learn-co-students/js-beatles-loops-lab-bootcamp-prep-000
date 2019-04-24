@@ -4,7 +4,7 @@ function theBeatlesPlay(array) {
   for (let i= 1; i <4; i++ ) {
     array.push(`${musican} plays ${instrument}`)
   }
-  return theBeatlesPlay
+  return array
 }
 
 /*
