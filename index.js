@@ -8,7 +8,7 @@ function theBeatlesPlay(array) {
   return array
 }
 
-function johnLennonFacts() {
+function johnLennonFacts(facts) {
   
 }
 
