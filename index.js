@@ -1,13 +1,13 @@
-
-var musican = ['John Lennon', 'Ringo Starr', 'George Harrison', 'Paul Mccartney']
-var instrument = ['Guitar', 'Drums', 'Lead Guitar', 'Bass Guitar']
-function theBeatlesPlay(array) {
+function theBeatlesPlay(array) {  
+  var musican = ['John Lennon', 'Ringo Starr', 'George Harrison', 'Paul Mccartney']
+  var instrument = ['Guitar', 'Drums', 'Lead Guitar', 'Bass Guitar']
   for (let i= 1; i <4; i++ ) {
     array.push(`${musican} plays ${instrument}`)
   }
   return theBeatlesPlay
 }
 
+/*
 function johnLennonFacts(array) {
   const facts = [
   "He was the last Beatle to learn to drive",
@@ -34,4 +34,4 @@ function iLoveTheBeatles(num) {
   }
   while (incrementVariable() < num);
 }
-  
+  */
