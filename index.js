@@ -27,11 +27,9 @@ function iLoveTheBeatles(num) {
    var i = 0;
    function incrementVariable() {
     i = i + 1;
-    return i;
   }
   do {
     love.push("I love the Beatles!");
-    return love
   }
   while (incrementVariable() < 15);
   return love
