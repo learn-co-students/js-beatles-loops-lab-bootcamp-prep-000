@@ -17,7 +17,7 @@ while(i < facts.length){
   	
   	facts[i] = facts[i] + "!!!"
   }
-  return facts
+  return johnLennonFacts
 }
 
 
