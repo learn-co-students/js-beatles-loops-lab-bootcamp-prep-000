@@ -28,6 +28,19 @@ function johnLennonFacts(facts) {
   }
   return johnlennonARRAY;
 }
-function iLoveTheBeatles() {
-  
+
+function iLoveTheBeatles(num) {
+  var beatlesLove = [];
+  function incrementVariable() {
+  num = num + 1;
+  return num;
+}
+  do { if (num === 7){
+    for (let i = 0; i < 8; i++) {
+      beatlesLove.push("I love the Beatles!");
+}} else {
+      beatlesLove.push("I love the Beatles!");
+}
+} while (incrementVariable() < num);
+  return beatlesLove;
 }
