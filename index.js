@@ -25,13 +25,14 @@ JLfacts = [
     return FACTS
   }
 
-function iLoveTheBeatles(n) {
-  var array = [];
-  do {
-    n = array.push("I love the Beatles!");
-    n++;
-  } while (n < 15); {
-    
-  }
-  return array;
+
+
+  function iLoveTheBeatles(num) {
+    var array = [];
+    do {
+        array.push("I love the Beatles!");
+        num++;
+    } while (num < 15);
+
+    return array;
 }
