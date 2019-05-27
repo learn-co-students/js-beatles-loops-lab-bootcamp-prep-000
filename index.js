@@ -4,5 +4,22 @@ function theBeatlesPlay(musicians, instruments) {
    array.push(`${musicians[i]} plays ${instruments[i]}`);
   }
   
-    return array;
+  return array;
+}
+
+
+function johnLennonFacts(facts) {
+  var arrayTwo = [];
+  let i = 0;
+  while (i < facts.length) {
+    arrayTwo.push(`${facts[i]}!!!`);
+    i++;
+  }
+  
+  return arrayTwo;
+}
+
+
+function iLoveTheBeatles(num) {
+  
 }
