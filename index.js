@@ -1,6 +1,6 @@
 function theBeatlesPlay(musicians, instruments) {
   var firstArray = [];
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < musicians.length; i++) {
     if (i === 0) {
     firstArray.push(`${musicians[0]} plays ${instruments[0]}`);
     } else {
@@ -8,4 +8,9 @@ function theBeatlesPlay(musicians, instruments) {
     }
   } 
   return firstArray;
+}
+
+function johnLennonFacts(facts) {
+  return facts.push(`${facts[0]} !!!`)
+  
 }
