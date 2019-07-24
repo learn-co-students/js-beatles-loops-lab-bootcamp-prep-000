@@ -16,7 +16,7 @@ function theBeatlesPlay(musicians, instruments) {
   for (let i = 0; i < musicians.length; i++) {
     theBeatles.push(musicians[i] + ' plays ' + instruments[i]);
   }
-  return theBeatles
+  return theBeatles 
 }
 
   //for (let j = 0; j < instruments.length; j++)
@@ -26,15 +26,16 @@ function theBeatlesPlay(musicians, instruments) {
 array of facts about John Lennon (note that it might not be exactly the
 following facts):Use a while loop to loop over the facts array and add "!!!" to the end of every fact.
 Return an array of strings with exclamation points.
-*/
-function johnLennonFacts(facts){
  /* "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
-];*/ }
+];*/ 
+
+function johnLennonFacts(facts) {
+}
 let facts = 0; while (facts === johnLennonFacts) {
-  
+  console.log(facts + '!!!')  
 }
 
 /*Create a function iLoveTheBeatles which accepts a number as a parameter.
@@ -43,12 +44,10 @@ Implement a do-while loop inside the function that adds "I love the Beatles!" to
 The loop should then increment the number passed in as a parameter. The condition of the loop should check to see that the parameter number is less than 15. It should contain a number of strings that represents the difference between the input number and 15.
 Return the array with the strings "I love the Beatles!".*/
 function iLoveTheBeatles(n){
-  var i= 0;
-  function incrementVariable(){
-    i = i + 1;
-    return i 
-  }
+  var i = []
+  
 }
+
   //do {
    // console.log('I love the Beatles!') }
   
