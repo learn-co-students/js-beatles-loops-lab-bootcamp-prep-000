@@ -9,7 +9,7 @@ function johnLennonFacts(facts) {
   var b = []
   let x = 0
   while (x < facts.length) {b.push(`${facts[x]}!!!`);
-  x++;}
+  x++}
   return b
 };
 //returns an array of 'I love the Beatles!' 15 - num
