@@ -27,4 +27,4 @@
     n++
   }
   return loveArray
-  }
+} // this is a comment
