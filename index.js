@@ -1,5 +1,3 @@
-console.log(iLoveTheBeatles(7));
-
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
   let lines = [];
