@@ -43,5 +43,3 @@ function iLoveTheBeatles(number) {
   } while (number < 15);
 return newArray;
 }
-
-1+
