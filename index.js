@@ -22,7 +22,7 @@ return johnLennonFacts;
 function iLoveTheBeatles(number) {
 var array = []
 do (var i = 0; i < 15; i++) {
-  array.push(`I love the Beatles!`)
+  array.push (`I love the Beatles!`)
 }
 
 return array;
