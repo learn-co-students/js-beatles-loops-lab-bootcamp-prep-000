@@ -23,5 +23,5 @@ function johnLennonFacts(){
         for(var x=0;x<johnLennonFactsArr.length;x++){
           JohnLennonFacts.push(`${musician[0]} ${johnLennonFactsArr[x]} !!!`)
         }
-        return musicians[0]
+        return JohnLennonFacts
 }
