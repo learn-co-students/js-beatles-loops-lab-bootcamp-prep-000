@@ -20,7 +20,7 @@ var johnLennonFactsArr=[
 function johnLennonFacts(){
   
         for(var x=0;x<johnLennonFactsArr.length;x++){
-          JohnLennonFacts.push(`${johnLennonFactsArr[x]} !!!`)
+          JohnLennonFacts.push(`${johnLennonFactsArr[x]}!!!`)
         }
         return JohnLennonFacts
 }
