@@ -30,8 +30,7 @@ function iLoveTheBeatles(){
 var i=0
   do{
     ++i
-    console.log("I love the Beatles!")
-iLoveTheBeatlesArr.push("I love the Beatles!")
+   iLoveTheBeatlesArr.push("I love the Beatles!")
   }while (i<8)
 return iLoveTheBeatlesArr
 }
