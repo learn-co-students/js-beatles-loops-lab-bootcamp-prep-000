@@ -10,14 +10,14 @@ theBeatlesPlayArr.push(`${musician} plays ${instrument}`)
    }
 return theBeatlesPlayArr
 }
-var JohnLennonFacts=[]
+
 var johnLennonFactsArr=[
         "He was the last Beatle to learn to drive",
         "He was never a vegetarian",
         "He was a choir boy and boy scout",
         "He hated the sound of his own voice" ]
-function johnLennonFacts(){
-  
+function johnLennonFacts(johnLennonFactsArr){
+  var JohnLennonFacts=[]
         for(var x=0;x<johnLennonFactsArr.length;x++){
           JohnLennonFacts.push(`${johnLennonFactsArr[x]}!!!`)
         }
