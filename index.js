@@ -10,3 +10,18 @@ theBeatlesPlayArr.push(`${musician} plays ${instrument}`)
    }
 return theBeatlesPlayArr
 }
+var JohnLennonFacts=[]
+var johnLennonFactsArr=[
+        "He was the last Beatle to learn to drive",
+        "He was never a vegetarian",
+        "He was a choir boy and boy scout",
+        "He hated the sound of his own voice"
+      ]
+function johnLennonFacts(){
+  for(var i=0;i<musicians.length;i++){
+        }
+        for(var x=0;x<johnLennonFactsArr.length;x++){
+          JohnLennonFacts.push(`${musician[0]} ${johnLennonFactsArr[x]} !!!`)
+        }
+        return musicians[0]
+}
