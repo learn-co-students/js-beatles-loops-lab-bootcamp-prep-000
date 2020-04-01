@@ -31,6 +31,6 @@ var i=0
   do{
     ++i
    iLoveTheBeatlesArr.push("I love the Beatles!")
-  }while (i<8)
+  }while (i<7)
 return iLoveTheBeatlesArr
 }
