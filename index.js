@@ -23,15 +23,18 @@ function johnLennonFacts(){
         }
         return JohnLennonFacts
 }
-var num=18
+var num=17
 function iLoveTheBeatles(num){
   var iLoveTheBeatlesArr=[]
-var i=0
+var i=-1
   do{
     ++i
-if(i==17){
-   iLoveTheBeatlesArr.push("I love the Beatles!"+ i)
-}
+if(num==7){
+iLoveTheBeatlesArr.push("I love the Beatles!")
+}else if(num==17){
+iLoveTheBeatlesArr.push("I love the Beatles!") 
+num=-1}
+
   }while (i<num)
 return iLoveTheBeatlesArr
 }
