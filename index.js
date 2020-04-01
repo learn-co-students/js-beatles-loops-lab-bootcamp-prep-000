@@ -9,6 +9,6 @@ function theBeatlesPlay(musicians,instruments){
   for(var x=0;x<=instruments.length;x++){
     
   }
-  return theBeatlesPlay.push(`${musicians[i]} plays${instruments[i]}`)
+  return theBeatlesPlay.push(`${musicians[i]} plays${instruments[x]}`)
 
 }
