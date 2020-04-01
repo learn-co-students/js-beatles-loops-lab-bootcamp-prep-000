@@ -18,10 +18,9 @@ var johnLennonFactsArr=[
         "He hated the sound of his own voice"
       ]
 function johnLennonFacts(){
-  for(var i=0;i<musicians.length;i++){
-        }
+  
         for(var x=0;x<johnLennonFactsArr.length;x++){
-          JohnLennonFacts.push(`${musician[0]} ${johnLennonFactsArr[x]} !!!`)
+          JohnLennonFacts.push(`${johnLennonFactsArr[x]} !!!`)
         }
         return JohnLennonFacts
 }
