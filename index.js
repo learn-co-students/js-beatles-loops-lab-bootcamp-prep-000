@@ -15,8 +15,7 @@ var johnLennonFactsArr=[
         "He was the last Beatle to learn to drive",
         "He was never a vegetarian",
         "He was a choir boy and boy scout",
-        "He hated the sound of his own voice","While on tour, he enjoyed playing Monopoly",
-    "Harmonica was the first instrument Lennon learned to play" ]
+        "He hated the sound of his own voice" ]
 function johnLennonFacts(){
   
         for(var x=0;x<johnLennonFactsArr.length;x++){
