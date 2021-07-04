@@ -1,1 +1,21 @@
-// add solution here
+function theBeatlesPlay(musicians, instruments) {
+  var arr = [];
+  for (let i = 0; i < musicians.length; i++) {
+    arr.push(musicians[i] + " plays " + instruments[i]);
+  }
+  return arr
+}
+function johnLennonFacts(arrFacts) {
+  let i = 0 
+  while (arrFacts.length > i) {
+    arrFacts[i] += "!!!" ; i++
+  }
+  return arrFacts
+}
+function iLoveTheBeatles(n){
+  var arr = [];
+  do {arr.push("I love the Beatles!");
+    ++n;
+  }while (n < 15);
+  return arr
+}
