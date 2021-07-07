@@ -1,4 +1,38 @@
-# Beatles Loops
+const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]
+musicians.length = 4;
+instruments.length = 4;
+
+var beatlesPairs = [];
+
+
+var i;
+
+
+
+function theBeatlesPlay(musicians, instruments) {
+  for (var i = 0; i < 4; i++) {
+    beatlesPairs[i] = `${musicians[i]} plays ${instruments[i]}`
+  }
+  return beatlesPairs
+}
+
+const facts = ["He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"]
+
+var newFacts = [];
+
+var i;
+
+function johnLennonFacts(facts) {
+  while (i < newFacts.length) {
+    newFacts = facts[i] + "!!!";
+  }
+  return newFacts
+  
+}# Beatles Loops
 
 ## Objectives
 
